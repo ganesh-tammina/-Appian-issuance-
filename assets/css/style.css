@@ -6832,7 +6832,7 @@ area {
 .first-section {
   background-image: url("../Issuance-image/Vector 2.svg");
   width: 100%;
-  height: 90vh;
+  height: 100vh;
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -6978,52 +6978,78 @@ area {
 }
 .methodology .second-text .box-1 {
   padding: 2rem;
-  border: 1px solid #FF9F47;
+  border: 2px solid #FF9F47;
+  border-radius: 12px;
+}
+.methodology .second-text .box-1 h5 {
+  background: linear-gradient();
 }
 .methodology .left-part {
   position: relative;
+  top: 10rem;
+  right: -5rem;
 }
-.methodology .left-part .polygon-1 {
+.methodology .polygon-1 {
   position: absolute;
   top: 14rem;
   left: 16rem;
   animation: rotating 7s linear infinite;
 }
-.methodology .left-part .polygon-2 {
+.methodology .polygon-2 {
   position: absolute;
   top: 13.5rem;
   left: 34rem;
   animation: rotating 7s linear infinite;
 }
-.methodology .left-part .polygon-3 {
+.methodology .polygon-3 {
   position: absolute;
   top: 51rem;
   left: 25rem;
   animation: rotating 7s linear infinite;
 }
-.methodology .left-part .polygon-4 {
+.methodology .polygon-4 {
   position: absolute;
   top: 55rem;
   left: 21rem;
   animation: rotating 7s linear infinite;
 }
-.methodology .second-session.second-session-bg {
+
+.trillion {
+  background-image: url(../Issuance-image/Vector\ 6.svg);
+  background-size: cover;
   width: 100%;
-  height: 100%;
-  background-repeat: no-repeat;
-  background-position: bottom;
-  background-size: contain;
+  height: auto;
 }
-.methodology .second-session .second-session-before::before {
-  content: "";
-  position: absolute;
-  width: 100%;
-  height: 500px;
-  left: 0;
-  background-repeat: no-repeat;
-  background-position-y: center;
+.trillion .first-percent {
+  margin-top: 5rem;
 }
-.methodology .second-session .second-session-text {
+.trillion .first-percent p {
+  color: #fff;
+  font-size: 76px;
+}
+.trillion .second-percent p {
+  color: #FFFFFF;
+  font-size: 500;
+  font-size: 64px;
+  gap: 2px;
+}
+.trillion .third-percent p {
+  color: #FFFFFF;
+  font-size: 500;
+  font-size: 76px;
+}
+.trillion .forth-percent p {
+  color: #FFFFFF;
+  font-size: 500;
+  font-size: 30px;
+}
+.trillion .fifth-percent p {
+  color: #FFFFFF;
+  font-size: 800;
+  font-size: 56px;
+}
+
+.methodology-2 .methodology-session-text {
   font-weight: 500;
   font-size: 30px;
   line-height: 45px;
@@ -7034,7 +7060,7 @@ area {
   position: relative;
   padding-bottom: 5px;
 }
-.methodology .second-session .second-session-text::before {
+.methodology-2 .methodology-session-text::before {
   content: "";
   width: 55px;
   height: 8px;
@@ -7045,26 +7071,137 @@ area {
   margin: auto;
   background: #DE7C15;
 }
-.methodology .second-session .underwriting {
+.methodology-2 p {
+  color: #5A5050;
+  width: 84%;
+  margin: auto;
+  padding-bottom: 6rem;
+  font-weight: 500;
+  line-height: 27px;
+}
+.methodology-2 .left-box {
+  border-style: dashed;
+  border: 2px dashed #BF2E2E;
+  border-radius: 12px;
+  position: relative;
+}
+.methodology-2 .left-box .omni {
+  position: absolute;
+  background-color: white;
+  top: -12px;
+  right: 0;
+  left: 0;
+  width: 42%;
+  margin: auto;
+}
+.methodology-2 .left-box p {
+  width: 84%;
+  margin: auto;
+  padding: 3rem;
+}
+.methodology-2 .left-box .arrow-1 {
+  position: absolute;
+  left: 165px;
+  top: -14px;
+  z-index: 1;
+}
+.methodology-2 .left-box .arrow-2 {
+  position: absolute;
+  right: 165px;
+  top: -14px;
+  z-index: 1;
+}
+.methodology-2 .right-box {
+  border: 2px dashed #BF2E2E;
+  border-radius: 12px;
+  position: relative;
+}
+.methodology-2 .right-box .rpa {
+  position: absolute;
+  background-color: white;
+  top: -15px;
+  right: 0;
+  left: 0;
+  width: 42%;
+  margin: auto;
+}
+.methodology-2 .right-box p {
+  width: 84%;
+  margin: auto;
+  padding: 3rem;
+}
+.methodology-2 .right-box .arrow-1 {
+  position: absolute;
+  left: 165px;
+  top: -14px;
+  z-index: 1;
+}
+.methodology-2 .right-box .arrow-2 {
+  position: absolute;
+  right: 165px;
+  top: -14px;
+  z-index: 1;
+}
+
+.second-session.second-session-bg {
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: contain;
+}
+.second-session .second-session-before::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 500px;
+  left: 0;
+  background-repeat: no-repeat;
+  background-position-y: center;
+}
+.second-session .second-session-text {
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 45px;
+  text-transform: uppercase;
+  color: #DE7C15;
+  border-bottom: 2px solid #DE7C15;
+  display: inline-block;
+  position: relative;
+  padding-bottom: 5px;
+}
+.second-session .second-session-text::before {
+  content: "";
+  width: 55px;
+  height: 8px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -4px;
+  margin: auto;
+  background: #DE7C15;
+}
+.second-session .underwriting {
   font-weight: 500;
   color: #5A5050;
   width: 70%;
   margin: auto;
   padding: 2rem 0 2rem 0;
 }
-.methodology .second-session .policy {
+.second-session .policy {
   width: 66%;
   margin: auto;
 }
-.methodology .second-session .card-flex {
+.second-session .card-flex {
   display: flex;
   flex-wrap: wrap;
 }
-.methodology .second-session .card-content {
+.second-session .card-content {
   display: grid;
   place-content: center;
 }
-.methodology .third-session {
+
+.third-session {
   background-image: url(../IRP-assets/blue-gradient-shape.svg);
   width: 100%;
   height: 100vh;
@@ -7074,45 +7211,45 @@ area {
   place-content: center;
   padding: 3rem 0rem;
 }
-.methodology .third-session .key-text {
+.third-session .key-text {
   margin-top: 3rem;
 }
 @media (max-width: 767px) {
-  .methodology .third-session {
+  .third-session {
     height: auto;
   }
-  .methodology .third-session .key-text {
+  .third-session .key-text {
     margin-top: 0rem;
     margin-bottom: 2rem;
   }
 }
 @media (max-width: 767px) {
-  .methodology .third-session {
+  .third-session {
     padding: 14rem 0rem;
   }
 }
-.methodology .third-session .third-session-heading {
+.third-session .third-session-heading {
   font-weight: 700;
   font-size: 30px;
   text-transform: uppercase;
 }
 @media (max-width: 767px) {
-  .methodology .third-session .third-session-heading {
+  .third-session .third-session-heading {
     font-size: 20px;
   }
 }
 @media only screen and (min-width: 320px) and (max-width: 575px) {
-  .methodology .third-session .third-session-heading {
+  .third-session .third-session-heading {
     font-size: 15px;
     padding: 5rem 0 5rem 0;
   }
 }
-.methodology .third-session .third-session-heading .keytext {
+.third-session .third-session-heading .keytext {
   border-bottom: 3px solid white;
   padding-bottom: 5px;
   position: relative;
 }
-.methodology .third-session .third-session-heading .keytext::before {
+.third-session .third-session-heading .keytext::before {
   content: "";
   width: 55px;
   height: 8px;
@@ -7123,7 +7260,7 @@ area {
   margin: auto;
   background: white;
 }
-.methodology .third-session .third-session-keypoints {
+.third-session .third-session-keypoints {
   height: 530px;
   align-items: center;
   justify-content: center;
@@ -7131,31 +7268,31 @@ area {
   position: relative;
 }
 @media (max-width: 767px) {
-  .methodology .third-session .third-session-keypoints {
+  .third-session .third-session-keypoints {
     height: auto;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  .methodology .third-session .third-session-keypoints {
+  .third-session .third-session-keypoints {
     height: 416px;
   }
 }
-.methodology .third-session .third-session-keypoints .third-session-img {
+.third-session .third-session-keypoints .third-session-img {
   position: absolute;
   z-index: 99;
 }
 @media (max-width: 767px) {
-  .methodology .third-session .third-session-keypoints .third-session-img {
+  .third-session .third-session-keypoints .third-session-img {
     display: none;
   }
 }
-.methodology .third-session .third-session-keypoints .common-box {
+.third-session .third-session-keypoints .common-box {
   border: 1px solid white;
   border-radius: 10px;
   margin-bottom: 40px;
   padding: 10px 10px;
 }
-.methodology .third-session .third-session-keypoints .common-box .common-point {
+.third-session .third-session-keypoints .common-box .common-point {
   font-weight: 500;
   font-size: 15px;
   line-height: 23px;
@@ -7167,105 +7304,107 @@ area {
   margin-right: 0;
 }
 @media (min-width: 768px) {
-  .methodology .third-session .third-session-keypoints .common-box .common-point {
+  .third-session .third-session-keypoints .common-box .common-point {
     font-size: 12px;
     line-height: 15px;
   }
 }
-.methodology .third-session .third-session-keypoints .common-box .pen-icon {
+.third-session .third-session-keypoints .common-box .pen-icon {
   right: 0 !important;
   margin: auto;
   border: 1px solid white;
   padding: 8px;
   border-radius: 10px;
 }
-.methodology .third-session .third-session-keypoints .third-session-keyboxs {
+.third-session .third-session-keypoints .third-session-keyboxs {
   margin-right: 130px;
 }
 @media (max-width: 767px) {
-  .methodology .third-session .third-session-keypoints .third-session-keyboxs {
+  .third-session .third-session-keypoints .third-session-keyboxs {
     margin-right: 0px;
   }
 }
-.methodology .third-session .third-session-keypoints .common-box-one {
+.third-session .third-session-keypoints .common-box-one {
   position: relative;
   right: 45px;
 }
 @media (max-width: 767px) {
-  .methodology .third-session .third-session-keypoints .common-box-one {
+  .third-session .third-session-keypoints .common-box-one {
     right: 0px;
     flex-direction: row-reverse;
   }
 }
-.methodology .third-session .third-session-keypoints .common-box-one-right {
+.third-session .third-session-keypoints .common-box-one-right {
   position: relative;
   left: 45px;
 }
 @media (max-width: 767px) {
-  .methodology .third-session .third-session-keypoints .common-box-one-right {
+  .third-session .third-session-keypoints .common-box-one-right {
     left: 0px;
   }
 }
-.methodology .third-session .third-session-keypoints .third-session-keyboxs :nth-child(2) {
+.third-session .third-session-keypoints .third-session-keyboxs :nth-child(2) {
   position: relative;
   right: 93px;
 }
 @media (max-width: 767px) {
-  .methodology .third-session .third-session-keypoints .third-session-keyboxs :nth-child(2) {
+  .third-session .third-session-keypoints .third-session-keyboxs :nth-child(2) {
     right: 0px;
     flex-direction: row-reverse;
   }
 }
-.methodology .third-session .third-session-keypoints .third-session-keyboxs :nth-child(3) {
+.third-session .third-session-keypoints .third-session-keyboxs :nth-child(3) {
   position: relative;
   right: 50px;
 }
 @media (max-width: 767px) {
-  .methodology .third-session .third-session-keypoints .third-session-keyboxs :nth-child(3) {
+  .third-session .third-session-keypoints .third-session-keyboxs :nth-child(3) {
     right: 0px;
     flex-direction: row-reverse;
   }
 }
-.methodology .third-session .third-session-keypoints .third-session-keyboxs-right :nth-child(2) {
+.third-session .third-session-keypoints .third-session-keyboxs-right :nth-child(2) {
   position: relative;
   right: -92px;
 }
 @media (max-width: 767px) {
-  .methodology .third-session .third-session-keypoints .third-session-keyboxs-right :nth-child(2) {
+  .third-session .third-session-keypoints .third-session-keyboxs-right :nth-child(2) {
     right: 0px;
   }
 }
-.methodology .third-session .third-session-keypoints .third-session-keyboxs-right :nth-child(1) {
+.third-session .third-session-keypoints .third-session-keyboxs-right :nth-child(1) {
   position: relative;
 }
-.methodology .third-session .third-session-keypoints .third-session-keyboxs-right :nth-child(3) {
+.third-session .third-session-keypoints .third-session-keyboxs-right :nth-child(3) {
   position: relative;
   right: -50px;
 }
 @media (max-width: 767px) {
-  .methodology .third-session .third-session-keypoints .third-session-keyboxs-right :nth-child(3) {
+  .third-session .third-session-keypoints .third-session-keyboxs-right :nth-child(3) {
     right: 0px;
   }
 }
-.methodology .third-session .third-session-keypoints .third-session-keyboxs-right .common-point {
+.third-session .third-session-keypoints .third-session-keyboxs-right .common-point {
   text-align: left;
 }
-.methodology .fourth-session {
+
+.fourth-session {
   background-image: url(../IRP-assets/bg-methodology.png);
   height: 1000px;
   background-size: cover;
 }
 @media (max-width: 991px) {
-  .methodology .fourth-session {
+  .fourth-session {
     height: auto;
   }
 }
-.methodology .mini-section {
+
+.mini-section {
   text-align: center;
   position: relative;
   bottom: 140px;
 }
-.methodology .mini-section .benefits-text {
+.mini-section .benefits-text {
   width: 145px;
   font-weight: 700;
   font-size: 30px;
@@ -7278,7 +7417,7 @@ area {
   bottom: calc(100% - 12px);
   right: 82%;
 }
-.methodology .mini-section .benefits-text::after {
+.mini-section .benefits-text::after {
   content: "";
   width: 55px;
   height: 8px;
@@ -7289,7 +7428,7 @@ area {
   margin: auto;
   background: #0085FF;
 }
-.methodology .mini-section .benifits-card {
+.mini-section .benifits-card {
   width: 272px;
   height: 300px;
   margin: 0px 10px;
@@ -7300,7 +7439,7 @@ area {
   margin-bottom: 15px;
   animation: movebounce-up 5s infinite;
 }
-.methodology .mini-section .benifits-card .benfits-flow {
+.mini-section .benifits-card .benfits-flow {
   font-weight: 700;
   font-size: 15px;
   line-height: 27px;
@@ -7308,17 +7447,17 @@ area {
   text-transform: uppercase;
   color: #FFFFFF;
 }
-.methodology .mini-section .two {
+.mini-section .two {
   background: radial-gradient(123.86% 123.86% at -5.19% -18.67%, #930AFF 0%, #FA07FF 100%);
   position: relative;
   opacity: 0;
   animation: movebounce-up 5s infinite;
   animation-delay: 2s;
 }
-.methodology .mini-section .two.active {
+.mini-section .two.active {
   opacity: 1;
 }
-.methodology .mini-section .active.fade-bottom {
+.mini-section .active.fade-bottom {
   animation: fade-bottom 1s ease-in;
 }
 @keyframes fade-bottom {
@@ -7331,80 +7470,87 @@ area {
     opacity: 1;
   }
 }
-.methodology .mini-section .threes {
+.mini-section .threes {
   background: linear-gradient(138.3deg, #00D1FF -13.67%, #19C69C 103.52%);
   position: relative;
   opacity: 0;
   animation: movebounce-up 5s infinite;
   animation-delay: 3s;
 }
-.methodology .mini-section .threes.active {
+.mini-section .threes.active {
   opacity: 1;
 }
-.methodology .mini-section .active.fade-bottom {
+.mini-section .active.fade-bottom {
   animation: fade-bottom 1s ease-in;
 }
-.methodology .mini-section .four {
+.mini-section .four {
   background: linear-gradient(145.76deg, #EE4646 -14.2%, rgba(242, 194, 69, 0.96) 117.67%);
   position: relative;
   opacity: 0;
   animation: movebounce-up 5s infinite;
   animation-delay: 4s;
 }
-.methodology .mini-section .four.active {
+.mini-section .four.active {
   opacity: 1;
 }
-.methodology .mini-section .active.fade-bottom {
+.mini-section .active.fade-bottom {
   animation: fade-bottom 1s ease-in;
 }
-.methodology .mini-section .first-card {
+.mini-section .first-card {
   position: relative;
   opacity: 0;
 }
-.methodology .mini-section .first-card.active {
+.mini-section .first-card.active {
   opacity: 1;
 }
-.methodology .mini-section .first-card.fade-bottom {
+.mini-section .first-card.fade-bottom {
   animation: fade-bottom 1s ease-in;
 }
-.methodology .card-align {
+
+.card-align {
   border: 0px !important;
   box-shadow: 0px 4px 13px rgba(0, 0, 0, 0.25);
   display: grid;
   place-items: center;
 }
-.methodology .card-align-left {
+
+.card-align-left {
+  margin: 0px -17px;
+}
+
+.card-align-left {
   margin-left: auto;
 }
 @media (min-width: 992px) {
-  .methodology .card-align-left {
+  .card-align-left {
     position: relative;
     left: 22px;
   }
 }
+
 @media (min-width: 1350px) {
-  .methodology .two, .methodology .four {
+  .two, .four {
     position: relative;
     top: 80px;
   }
 }
 @media (max-width: 1350px) {
-  .methodology .mini-section {
+  .mini-section {
     margin-top: 67px;
   }
-  .methodology .mini-section .benefits-text {
+  .mini-section .benefits-text {
     left: 0px;
     right: 0px;
     margin: auto;
   }
 }
 @media (max-width: 991px) {
-  .methodology .mini-section {
+  .mini-section {
     margin-top: 67px;
     bottom: 0px;
   }
 }
-.methodology .global-session {
+.global-session {
   background: linear-gradient(99.36deg, #401C1C -10.42%, #00C1DB 105.7%);
   box-shadow: 6px 21px 60px 2px rgba(0, 0, 0, 0.17);
   border-radius: 17px;
@@ -7414,56 +7560,56 @@ area {
   height: 100%;
 }
 @media (max-width: 320px) {
-  .methodology .global-session {
+  .global-session {
     margin-top: 16rem;
   }
 }
 @media (min-width: 992px) {
-  .methodology .global-session {
+  .global-session {
     height: 560px;
   }
 }
-.methodology .global-session .first-line {
+.global-session .first-line {
   font-weight: 700;
   font-size: 39px;
 }
 @media only screen and (min-width: 576px) and (max-width: 767px) {
-  .methodology .global-session .first-line {
+  .global-session .first-line {
     font-size: 23px;
   }
 }
 @media only screen and (min-width: 320px) and (max-width: 575px) {
-  .methodology .global-session .first-line {
+  .global-session .first-line {
     font-size: 18px;
   }
 }
-.methodology .global-session .second-line {
+.global-session .second-line {
   font-weight: 900;
   font-size: 65px;
   line-height: 106px;
 }
 @media only screen and (min-width: 576px) and (max-width: 767px) {
-  .methodology .global-session .second-line {
+  .global-session .second-line {
     font-size: 23px;
   }
 }
 @media (max-width: 320px) {
-  .methodology .global-session .second-line {
+  .global-session .second-line {
     font-size: 50px;
     line-height: 80px;
   }
 }
-.methodology .global-session .third-line {
+.global-session .third-line {
   font-weight: 600;
   font-size: 30px;
   line-height: 45px;
 }
 @media only screen and (min-width: 576px) and (max-width: 767px) {
-  .methodology .global-session .third-line {
+  .global-session .third-line {
     font-size: 23px;
   }
 }
-.methodology .global-session .fouth-line {
+.global-session .fouth-line {
   font-weight: 600;
   font-size: 75px;
   line-height: 112px;
@@ -7473,17 +7619,18 @@ area {
   -webkit-text-fill-color: transparent;
 }
 @media only screen and (min-width: 576px) and (max-width: 767px) {
-  .methodology .global-session .fouth-line {
+  .global-session .fouth-line {
     font-size: 42px;
   }
 }
 @media (max-width: 320px) {
-  .methodology .global-session .fouth-line {
+  .global-session .fouth-line {
     font-size: 50px;
     line-height: 80px;
   }
 }
-.methodology .low-code {
+
+.low-code {
   background-image: url(../IRP-assets/foregroung-blue-shape.svg);
   height: 100vh;
   background-size: cover;
@@ -7495,17 +7642,17 @@ area {
   z-index: -9;
 }
 @media only screen and (min-width: 576px) and (max-width: 767px) {
-  .methodology .low-code {
+  .low-code {
     bottom: 0;
     height: auto;
   }
 }
 @media only screen and (min-width: 320px) and (max-width: 991px) {
-  .methodology .low-code {
+  .low-code {
     bottom: 0;
   }
 }
-.methodology .low-code .low-code-text {
+.low-code .low-code-text {
   font-weight: 700;
   font-size: 30px;
   line-height: 45px;
@@ -7514,12 +7661,12 @@ area {
   position: relative;
 }
 @media (max-width: 991px) {
-  .methodology .low-code .low-code-text {
+  .low-code .low-code-text {
     background-size: none;
     bottom: none;
   }
 }
-.methodology .low-code .low-code-text::after {
+.low-code .low-code-text::after {
   content: "";
   width: 55px;
   height: 8px;
@@ -7530,14 +7677,17 @@ area {
   margin: auto;
   background: white;
 }
-.methodology .system-img {
+
+.system-img {
   background: radial-gradient(50% 50% at 50% 50%, #FFFFFF 0%, rgba(217, 217, 217, 0) 103%);
 }
-.methodology .d-place {
+
+.d-place {
   display: grid;
   place-content: center;
 }
-.methodology .second-session-text {
+
+.second-session-text {
   font-weight: 500;
   font-size: 30px;
   line-height: 45px;
@@ -7548,10 +7698,10 @@ area {
   position: relative;
   padding-bottom: 5px;
 }
-.methodology .second-session-text.second-session-text-tammina {
+.second-session-text.second-session-text-tammina {
   border-bottom: 2px solid white;
 }
-.methodology .second-session-text::before {
+.second-session-text::before {
   content: "";
   width: 55px;
   height: 8px;
@@ -7562,10 +7712,11 @@ area {
   margin: auto;
   background: white;
 }
-.methodology .animate-bg {
+
+.animate-bg {
   position: relative;
 }
-.methodology .animate-bg::before {
+.animate-bg::before {
   content: "";
   background-image: url(../animation/back-bot.svg);
   position: absolute;
@@ -7575,7 +7726,7 @@ area {
   background-position: center;
   animation: blink 2s linear infinite;
 }
-.methodology .animate-bg::after {
+.animate-bg::after {
   content: "";
   background-image: url(../animation/bot-fade-out.svg);
   position: absolute;
@@ -7585,6 +7736,7 @@ area {
   background-position: center;
   left: 0;
 }
+
 @keyframes blink {
   0% {
     opacity: 0;
@@ -7599,11 +7751,11 @@ area {
     filter: drop-shadow(-31px 50px 50px rgba(255, 212, 255, 0.7294117647));
   }
 }
-.methodology .animate-outer {
+.animate-outer {
   border-radius: 50%;
   position: relative;
 }
-.methodology .animate-outer::after {
+.animate-outer::after {
   content: "";
   background-image: url(../animation/Ellipse-1.svg);
   width: 45%;
@@ -7617,7 +7769,7 @@ area {
   top: 0;
   bottom: 0;
 }
-.methodology .animate-outer::before {
+.animate-outer::before {
   content: "";
   background-image: url(../animation/Ellipse2.svg);
   width: 100%;
@@ -7633,6 +7785,7 @@ area {
   animation-delay: 2s;
   z-index: 99;
 }
+
 @keyframes rotating {
   from {
     transform: rotate(0deg);
@@ -7641,10 +7794,10 @@ area {
     transform: rotate(360deg);
   }
 }
-.methodology .animate-inner {
+.animate-inner {
   position: relative;
 }
-.methodology .animate-inner::after {
+.animate-inner::after {
   content: "";
   background-image: url(../animation/Ellipse-3.svg);
   position: absolute;
@@ -7658,7 +7811,7 @@ area {
   top: 0;
   bottom: 0;
 }
-.methodology .animate-inner::before {
+.animate-inner::before {
   content: "";
   background-image: url(../animation/Ellipse-4.svg);
   position: absolute;
@@ -7674,11 +7827,13 @@ area {
   animation-delay: 2s;
   z-index: 99;
 }
-.methodology .reports-img {
+
+.reports-img {
   -o-object-fit: contain;
      object-fit: contain;
 }
-.methodology .tammina-session {
+
+.tammina-session {
   background-image: url("../TAMS imgs/locode-&-why-tech-bg.svg");
   width: 100%;
   height: 200vh;
@@ -7687,10 +7842,10 @@ area {
   place-content: center;
   padding: 50px 0px;
 }
-.methodology .tammina-session .tammina-session-reports {
+.tammina-session .tammina-session-reports {
   position: relative;
 }
-.methodology .tammina-session .tammina-session-reports::after {
+.tammina-session .tammina-session-reports::after {
   content: "";
   background-image: url("../TAMS imgs/Vector-squre.svg");
   position: absolute;
@@ -7702,7 +7857,7 @@ area {
   top: -83px;
   animation: rotating 7s linear infinite;
 }
-.methodology .tammina-session .design-card-support {
+.tammina-session .design-card-support {
   height: 150px;
   background: linear-gradient(96.21deg, #247378 22.34%, #782470 73.25%);
   box-shadow: 0px 4px 33px rgba(0, 0, 0, 0.44);
@@ -7710,11 +7865,11 @@ area {
   display: grid;
   text-align: center;
 }
-.methodology .tammina-session .design-card-support .Connect-content {
+.tammina-session .design-card-support .Connect-content {
   display: grid;
   place-content: center;
 }
-.methodology .tammina-session .design-card-support .Connect-content .Connect-btn {
+.tammina-session .design-card-support .Connect-content .Connect-btn {
   border: 3px solid #FFFFFF;
   border-radius: 9px;
   height: 85px;
@@ -7726,14 +7881,14 @@ area {
   text-transform: capitalize;
   color: #FFFFFF;
 }
-.methodology .tammina-session .tech-robo-align {
+.tammina-session .tech-robo-align {
   position: relative;
   top: 41px;
 }
-.methodology .tammina-session .tammina-block {
+.tammina-session .tammina-block {
   position: relative;
 }
-.methodology .tammina-session .tammina-block::after {
+.tammina-session .tammina-block::after {
   content: "";
   width: 150px;
   height: 150px;
@@ -7745,10 +7900,10 @@ area {
   right: 0;
   animation: running-in 15s linear infinite;
 }
-.methodology .tammina-session .tammina-text {
+.tammina-session .tammina-text {
   position: relative;
 }
-.methodology .tammina-session .tammina-text::before {
+.tammina-session .tammina-text::before {
   content: "";
   width: 75px;
   height: 75px;
@@ -7759,24 +7914,27 @@ area {
   left: -44px;
   animation: running-in 15s linear infinite;
 }
-.methodology .mid-text {
+
+.mid-text {
   background: linear-gradient(101.82deg, #00A3FF 25.05%, #36C98B 58.66%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
   font-weight: bold;
 }
-.methodology .height-100 {
+
+.height-100 {
   height: 100vh;
 }
-.methodology .icon-set {
+
+.icon-set {
   width: 75px;
   height: 75px;
   background-color: #4D4AD6;
   border-radius: 50px;
   position: relative;
 }
-.methodology .icon-set::after {
+.icon-set::after {
   content: "";
   background-image: url("../TAMS imgs/circle.svg");
   position: absolute;
@@ -7789,12 +7947,14 @@ area {
   background-position: center;
   animation: rotating 15s linear infinite;
 }
-.methodology .key-text {
+
+.key-text {
   font-size: 16px;
   font-weight: 600;
 }
+
 @media (max-width: 991px) {
-  .methodology .key-text {
+  .key-text {
     margin: auto;
     text-align: center;
   }
@@ -7812,6 +7972,7 @@ area {
   background-repeat: no-repeat;
   margin: auto;
   position: relative;
+  background-size: cover;
 }
 .features-text .left-side p {
   width: 60%;

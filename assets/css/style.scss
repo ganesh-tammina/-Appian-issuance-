@@ -7190,7 +7190,7 @@ left: -40px;
 .first-section{
     background-image: url('../Issuance-image/Vector\ 2.svg');
     width: 100%;
-    height: 90vh;
+    height: 100vh;
     background-size: cover;
     background-repeat: no-repeat;
     .first-section-content{
@@ -7359,14 +7359,21 @@ left: -40px;
             }
          .box-1{
             padding: 2rem;
-            border: 1px solid 
-            #FF9F47;
+            border: 2px solid #FF9F47;
+            border-radius:12px;
+            h5{
+                background: linear-gradient(); 
+            }
          }
             
             
         }
         .left-part{
             position: relative;
+            top: 10rem;
+            right: -5rem;
+        }
+
             .polygon-1{
               position: absolute;
               top: 14rem;
@@ -7392,14 +7399,151 @@ left: -40px;
                 left: 21rem;
                 animation: rotating 7s linear infinite;
             }
-            .robo{
-                
-            }
+            
         }
        
 
+.trillion{
+    background-image: url(../Issuance-image/Vector\ 6.svg);
+    background-size: cover;
+    width: 100%;
+    height: auto;
+    .first-percent{
+        margin-top: 5rem;
+        p{
+            color: #fff;
+          font-size: 76px;
+        }
+    }
+    .second-percent{
+        p{
+            color: #FFFFFF;
+            font-size: 500;
+            font-size: 64px;
+            gap: 2px;
+        }
+    }
+    .third-percent{
+        p{
+            color: #FFFFFF;
+            font-size: 500;
+            font-size: 76px;
+        }
+    }
+    .forth-percent{
+        p{
+            color: #FFFFFF;
+            font-size: 500;
+            font-size: 30px;
+        }
+    }
+    .fifth-percent{
+        p{
+            color: #FFFFFF;
+            font-size: 800;
+            font-size: 56px;
+        }
+    }
+}
 
 
+.methodology-2{
+    .methodology-session-text{
+        font-weight: 500;
+        font-size: 30px;
+        line-height: 45px;
+        text-transform: uppercase;
+        color: #DE7C15;
+        border-bottom: 2px solid #DE7C15;
+        display: inline-block;
+        position: relative;
+        padding-bottom: 5px;
+            &::before {
+                content: "";
+                width: 55px;
+                height: 8px;
+                position: absolute;
+                left: 0;
+                right: 0;
+                bottom: -4px;
+                margin: auto;
+                background: #DE7C15;
+        }
+        
+    }
+    p{
+        color: #5A5050;
+        width: 84%;
+        margin: auto;
+        padding-bottom: 6rem;
+        font-weight: 500;
+        line-height: 27px;
+    }   
+
+    .left-box{
+        border-style: dashed;
+        border: 2px dashed #BF2E2E;
+        border-radius:12px;
+        position: relative;
+        .omni{
+            position: absolute;
+    background-color: white;
+    top: -12px;
+    right: 0;
+    left: 0;
+    width: 42%;
+    margin: auto;
+        }
+        p{
+            width: 84%;
+            margin: auto;
+            padding: 3rem;
+        }
+        .arrow-1{
+            position: absolute;
+            left: 165px;
+            top: -14px;
+            z-index: 1;
+        }
+        .arrow-2{
+            position: absolute;
+            right: 165px;
+            top: -14px;
+            z-index: 1;
+        }
+    }
+    .right-box{
+        border: 2px dashed #BF2E2E;
+        border-radius:12px;
+        position: relative;
+        .rpa{
+            position: absolute;
+            background-color: white;
+              top: -15px;
+            right: 0;
+           left: 0;
+         width: 42%;
+            margin: auto;
+        }
+        p{
+            width: 84%;
+            margin: auto;
+            padding: 3rem;
+        }
+        .arrow-1{
+            position: absolute;
+            left: 165px;
+            top: -14px;
+            z-index: 1;
+        }
+        .arrow-2{
+            position: absolute;
+            right: 165px;
+            top: -14px;
+            z-index: 1;
+        }
+    }
+}
 
 .second-session{
     &.second-session-bg{
@@ -7800,7 +7944,7 @@ left: -40px;
 }
 
 .card-align-left{
-    // margin: 0px -17px;
+    margin: 0px -17px;
 
 }
 .card-align-left{
@@ -8249,7 +8393,7 @@ font-weight: bold;
         text-align: center;
     }
 }
-}
+
 
 
 .d-grid-align{
@@ -8264,6 +8408,7 @@ font-weight: bold;
     background-repeat: no-repeat;
     margin: auto;
     position: relative;
+    background-size: cover;
     .left-side{
            p{
             width: 60%;
