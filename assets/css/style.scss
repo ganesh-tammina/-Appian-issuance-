@@ -7298,20 +7298,14 @@ left: -40px;
 }
 
 .methodology{
-    background-image: url('../TAMS\ imgs/methodology-bg-shape.svg');
-    background-size: cover;
-        background-repeat: no-repeat;
-        height: 150vh;
-        width: 100%;
-        display: grid;
-        place-content: center;
+   
         .methodology-session-text{
             font-weight: 500;
             font-size: 30px;
             line-height: 45px;
             text-transform: uppercase;
-            color: #ffffff;
-            border-bottom: 2px solid #ffffff;
+            color: #DE7C15;
+            border-bottom: 2px solid #DE7C15;
             display: inline-block;
             position: relative;
             padding-bottom: 5px;
@@ -7325,7 +7319,7 @@ left: -40px;
                     right: 0;
                     bottom: -4px;
                     margin: auto;
-                    background: #ffffff;
+                    background: #DE7C15;
             }
            .information{
             p{
@@ -7334,15 +7328,9 @@ left: -40px;
            }
         }
         .First-text{
-            border-style: dotted ;
-            border-color: yellow;
-            border-radius: 3rem;
-            padding: 2rem;
-            margin: 3rem 0 3rem 0;
-            width: 54rem;
-            position: relative;
+            
             p{
-                color: white;
+                color: #5A5050;
             }
             .arrow-1{
                 position: absolute;
@@ -7367,39 +7355,17 @@ left: -40px;
             }
         }
         .second-text{
-            border-style: dotted;
-            border-color: yellow;
-            border-radius: 3rem;
-            padding: 2rem;
-            width: 54rem;
-            position: relative;
+            
             p{
-                color: white;
+                color: #5A5050;
             }
-            .arro-1{
-                position: absolute;
-                left: 13rem;
-                 bottom: 216px;
-}
-
-
-            }
-            .arro-2{
-                position: absolute;
-                left: 39rem;
-                bottom: 216px;
-            }
-            .omni-text{
-                text-align: center;
-                position: absolute;
-                top: -21px;
-                left: 0;
-                right: 0;
-                background-color: #1c847f;
-                width: 50%;
-                margin: auto;
-                color: yellow;
-            }
+         .box-1{
+            padding: 2rem;
+            border: 1px solid 
+            #FF9F47;
+         }
+            
+            
         }
         .left-part{
             position: relative;
@@ -7429,11 +7395,7 @@ left: -40px;
                 animation: rotating 7s linear infinite;
             }
             .robo{
-                position: relative;
-                img{
-                 position: absolute;
-                 top: 21rem;
-                }
+                
             }
         }
        
@@ -7443,7 +7405,6 @@ left: -40px;
 
 .second-session{
     &.second-session-bg{
-        background-image: url('../TAMS\ imgs/Over-view-Ifographics.svg');
         width: 100%;
         height: 100%;
         background-repeat: no-repeat;
@@ -7453,7 +7414,7 @@ left: -40px;
     .second-session-before{
         &::before{
             content: '';
-            background-image: url('../TAMS\ imgs/blue-wheel.svg');
+           
             position: absolute;
             width: 100%;
             height: 500px;
@@ -7461,14 +7422,15 @@ left: -40px;
             background-repeat: no-repeat; 
             background-position-y: center; 
         }
+       
     }
     .second-session-text{
         font-weight: 500;
         font-size: 30px;
         line-height: 45px;
         text-transform: uppercase;
-        color: #243C78;
-        border-bottom: 2px solid #243C78;
+        color: #DE7C15;
+        border-bottom: 2px solid #DE7C15;
         display: inline-block;
         position: relative;
         padding-bottom: 5px;
@@ -7482,15 +7444,19 @@ left: -40px;
             right: 0;
             bottom: -4px;
             margin: auto;
-            background: #243C78;
+            background: #DE7C15;
         }
     }
-    p{
-        font-size: 18px;
-        .first-content{
-            // color: #5A5050;
-            font-weight: 500;
-        }
+    .underwriting{
+        font-weight: 500;
+        color: #5A5050;
+        width: 70%;
+        margin: auto;
+        padding: 2rem 0 2rem 0;
+    }
+    .policy{
+        width: 66%;
+        margin: auto;
     }
     .card-flex{
         display: flex;
@@ -7500,6 +7466,7 @@ left: -40px;
         display: grid;
         place-content: center;
     }
+  
 }
 
 .third-session{
@@ -8274,86 +8241,30 @@ font-weight: bold;
     }
 }
 
-.key-features-section{
-    position: relative;
-    background-image: url('../TAMS\ imgs/3-lined-elips.svg');
-    position: absolute;
+.features-text{
+    background-image: url(assets/Issuance-image/back-ground-vector.svg);
+    height: 64vh;
     width: 100%;
-    height: 344px;
-    background-size: contain;
     background-repeat: no-repeat;
-    background-position-y: center;
-    left: 0;
-    align-items: center;
-    display: flex;
+    margin: auto;
     position: relative;
-    &::before{
-     content: '';
-     background-image: url('../TAMS imgs/key-polygon-2.svg');
-     position: absolute;
-     width: 50px;
-     height: 50px;
-     bottom: 0;
-     background-repeat: no-repeat;
-     top: -20px;
-     left: 0;
-     right: 0;
-    animation: rotating 15s linear infinite;
-    }
-    &::after{
-        content: '';
-        background-image: url('../TAMS imgs/key-polygon-5.svg');
-        position: absolute;
-        width: 50px;
-        height: 50px;
-        bottom: 0;
-        background-repeat: no-repeat;
-        left: 84px;
-        right: 0;
-        bottom: -13px;
-       animation: rotating 15s linear infinite;
-       }
-    img{
-        z-index: 9;
-    }
-    
-    .features-text{
-        position: relative;
-        &::after{
-          content: '';
-          background-image: url('../TAMS\ imgs/Key-features-gear-1.svg');
-          position: absolute;
-          background-size: contain;
-          background-repeat: no-repeat;
-          width: 400px;
-          height: 400px;
-          top: 0;
-          right: -200px;
-          margin: auto;
-          bottom: 0;
-          background-position: right;
-          animation: rotating 15s linear infinite;
-          @media(max-width:991px){
-            display: none;
-        }
-        }
-        &::before{
-            content: '';
-            background-image: url('../TAMS\ imgs/Key-features-gear-2.svg');
-            position: absolute;
-            background-size: contain;
-            background-repeat: no-repeat;
-            width: 300px;
-            height: 300px;
-            right: -380px;
+    .left-side{
+           p{
+            width: 60%;
+           text-align: center;
             margin: auto;
-            bottom: 0;
-            background-position: bottom;
-            animation: rotating 15s linear infinite;
-            @media(max-width:991px){
-                display: none;
-            }
-        }
+            color: #fff;
+            padding: 2rem 0 2rem 0;
+           }
+    }
+    .right-side{
+        p{
+            width: 75%;
+           text-align: center;
+            margin: auto;
+            color: #fff;
+            padding: 2rem 0 2rem 0;
+           }
     }
 }
 
@@ -8368,4 +8279,5 @@ font-weight: bold;
         margin: auto;
         text-align: center;
     }
+}
 }
