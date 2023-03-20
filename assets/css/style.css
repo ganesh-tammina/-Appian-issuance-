@@ -7093,33 +7093,13 @@ area {
   border-radius: 10px;
 }
 
-.methodology .methodology-session-text {
-  font-weight: 500;
-  font-size: 30px;
-  line-height: 45px;
-  text-transform: uppercase;
-  color: #DE7C15;
-  border-bottom: 2px solid #DE7C15;
-  display: inline-block;
-  position: relative;
-  padding-bottom: 5px;
-}
-.methodology .methodology-session-text::before {
-  content: "";
-  width: 55px;
-  height: 8px;
-  position: absolute;
-  left: 0;
-  right: 0;
-  bottom: -4px;
-  margin: auto;
-  background: #DE7C15;
-}
-.methodology .methodology-session-text .information p {
-  color: #fff !important;
+.methodology .information p {
+  font-size: 18px;
+  font-weight: 600;
 }
 .methodology .First-text p {
   color: #5A5050;
+  font-size: 18px;
 }
 .methodology .First-text .arrow-1 {
   position: absolute;
