@@ -7934,13 +7934,9 @@ area {
 }
 
 .tammina-session {
-  background-image: url("../Issuance-image/Vector 7.svg");
-  width: 100%;
-  height: 200vh;
   background-size: cover;
   display: grid;
   place-content: center;
-  padding: 50px 0px;
 }
 .tammina-session .tammina-session-reports {
   position: relative;
