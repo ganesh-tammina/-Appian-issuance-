@@ -6867,9 +6867,9 @@ area {
 }
 .first-section .first-section-image {
   position: absolute;
-  left: 35%;
+  left: 45%;
   top: 0;
-  bottom: 14%;
+  bottom: 0;
   margin: auto;
 }
 .first-section .first-section-image .first-section_content {
