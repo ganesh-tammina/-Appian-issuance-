@@ -7448,7 +7448,6 @@ left: -40px;
     .first-section-mobile{
         background-image: url('../Issuance-image/Vector\ 2.svg');
         width: 100%;
-        height: 45vh;
     }
 }
 
@@ -7732,11 +7731,14 @@ left: -40px;
         color: #5A5050;
         width: 70%;
         margin: auto;
-        padding: 2rem 0 2rem 0;
+        padding: 1rem 0 1rem 0;
+        font-size: 18px;
+        font-weight: 600;
     }
     .policy{
         width: 66%;
         margin: auto;
+        font-size: 18px;
     }
     .card-flex{
         display: flex;
@@ -8490,10 +8492,15 @@ font-weight: bold;
  .features-text{
     background-image: url('../Issuance-image/back-ground-vector.svg');
     width: 100%;
+    height: 100vh;
     background-repeat: no-repeat;
-    margin: auto;
     position: relative;
     background-size: cover;
+    display: grid;
+    place-content: center;
+    @media(min-width:992px){
+        height: 50vh;
+    }
     .left-side{
            p{
             width: 60%;
