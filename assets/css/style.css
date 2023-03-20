@@ -7202,6 +7202,11 @@ area {
 .trillion .first-percent h3 .sub-text {
   font-weight: 700;
 }
+@media (max-width: 767px) {
+  .trillion .first-percent h3 {
+    font-size: 34px;
+  }
+}
 .trillion .second-percent h1 {
   color: #FFFFFF;
   font-size: 500;
@@ -7211,10 +7216,20 @@ area {
   -webkit-text-fill-color: transparent;
   background-clip: text;
 }
+@media (max-width: 767px) {
+  .trillion .second-percent h1 {
+    font-size: 32px;
+  }
+}
 .trillion .third-percent p {
   color: #FFFFFF;
   font-size: 500;
   font-size: 76px;
+}
+@media (max-width: 767px) {
+  .trillion .third-percent p {
+    font-size: 18px;
+  }
 }
 .trillion .forth-percent h1 {
   color: #FFFFFF;
@@ -7225,10 +7240,20 @@ area {
   -webkit-text-fill-color: transparent;
   background-clip: text;
 }
+@media (max-width: 767px) {
+  .trillion .forth-percent h1 {
+    font-size: 32px;
+  }
+}
 .trillion .fifth-percent h1 {
   color: #FFFFFF;
   font-weight: 800;
   font-size: 56px;
+}
+@media (max-width: 767px) {
+  .trillion .fifth-percent h1 {
+    font-size: 32px;
+  }
 }
 
 .methodology-2 .methodology-session-text {
@@ -7260,6 +7285,8 @@ area {
   padding-bottom: 6rem;
   font-weight: 500;
   line-height: 27px;
+  font-size: 18px;
+  font-weight: 400;
 }
 .methodology-2 .left-box {
   border-style: dashed;
@@ -8080,25 +8107,41 @@ area {
   background-size: cover;
   display: grid;
   place-content: center;
+  position: relative;
 }
 @media (min-width: 992px) {
   .features-text {
     height: 50vh;
   }
 }
-.features-text .left-side p {
-  width: 60%;
-  text-align: center;
-  margin: auto;
-  color: #fff;
-  padding: 2rem 0 2rem 0;
+.features-text .top-view {
+  position: absolute;
+  top: -36px;
 }
-.features-text .right-side p {
-  width: 75%;
+@media (min-width: 576px) and (max-width: 767px) {
+  .features-text .top-view {
+    height: 100vh;
+    top: 0;
+    position: static;
+  }
+}
+.features-text .top-view .left-side p {
+  width: 72%;
   text-align: center;
   margin: auto;
   color: #fff;
   padding: 2rem 0 2rem 0;
+  font-size: 16px;
+  font-weight: 400;
+}
+.features-text .top-view .right-side p {
+  width: 72%;
+  text-align: center;
+  margin: auto;
+  color: #fff;
+  padding: 3rem 0 2rem 0;
+  font-size: 16px;
+  font-weight: 400;
 }
 
 .low-code {

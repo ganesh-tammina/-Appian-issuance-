@@ -7585,6 +7585,9 @@ line-height: 27px;
             .sub-text{
                 font-weight: 700;
             }
+            @media(max-width:767px){
+                font-size: 34px;
+            }
         }
     }
     .second-percent{
@@ -7596,6 +7599,9 @@ line-height: 27px;
 -webkit-background-clip: text;
 -webkit-text-fill-color: transparent;
 background-clip: text;
+@media(max-width:767px){
+    font-size: 32px;
+}
         }
     }
     .third-percent{
@@ -7603,6 +7609,9 @@ background-clip: text;
             color: #FFFFFF;
             font-size: 500;
             font-size: 76px;
+            @media(max-width:767px){
+                font-size: 18px;
+            }
         }
     }
     .forth-percent{
@@ -7614,6 +7623,9 @@ background-clip: text;
 -webkit-background-clip: text;
 -webkit-text-fill-color: transparent;
 background-clip: text;
+@media(max-width:767px){
+    font-size: 32px;
+}
         }
     }
     .fifth-percent{
@@ -7621,6 +7633,9 @@ background-clip: text;
             color: #FFFFFF;
             font-weight: 800;
             font-size: 56px;
+            @media(max-width:767px){
+                font-size: 32px;
+            }
         }
     }
 }
@@ -7657,6 +7672,8 @@ background-clip: text;
         padding-bottom: 6rem;
         font-weight: 500;
         line-height: 27px;
+        font-size: 18px;
+        font-weight: 400;
     }   
 
     .left-box{
@@ -8518,27 +8535,41 @@ font-weight: bold;
     background-size: cover;
     display: grid;
     place-content: center;
+    position: relative;
     @media(min-width:992px){
         height: 50vh;
     }
+    .top-view{
+        position: absolute;
+        top: -36px;
+        @media (min-width: 576px) and (max-width: 767px) {
+          height: 100vh;
+          top: 0;
+          position: static;
+         }
     .left-side{
            p{
-            width: 60%;
+            width: 72%;
            text-align: center;
             margin: auto;
             color: #fff;
             padding: 2rem 0 2rem 0;
+            font-size: 16px;
+            font-weight: 400;
            }
     }
     .right-side{
         p{
-            width: 75%;
+            width: 72%;
            text-align: center;
             margin: auto;
             color: #fff;
-            padding: 2rem 0 2rem 0;
+            padding: 3rem 0 2rem 0;
+            font-size: 16px;
+            font-weight: 400;
            }
     }
+}
 }
 
 
