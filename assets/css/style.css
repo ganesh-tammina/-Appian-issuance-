@@ -7086,7 +7086,6 @@ area {
   .first-section-mobile {
     background-image: url("../Issuance-image/Vector 2.svg");
     width: 100%;
-    height: 45vh;
   }
 }
 .into-card {
@@ -7335,11 +7334,14 @@ area {
   color: #5A5050;
   width: 70%;
   margin: auto;
-  padding: 2rem 0 2rem 0;
+  padding: 1rem 0 1rem 0;
+  font-size: 18px;
+  font-weight: 600;
 }
 .second-session .policy {
   width: 66%;
   margin: auto;
+  font-size: 18px;
 }
 .second-session .card-flex {
   display: flex;
@@ -8060,10 +8062,17 @@ area {
 .features-text {
   background-image: url("../Issuance-image/back-ground-vector.svg");
   width: 100%;
+  height: 100vh;
   background-repeat: no-repeat;
-  margin: auto;
   position: relative;
   background-size: cover;
+  display: grid;
+  place-content: center;
+}
+@media (min-width: 992px) {
+  .features-text {
+    height: 50vh;
+  }
 }
 .features-text .left-side p {
   width: 60%;
