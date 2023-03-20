@@ -7457,37 +7457,18 @@ left: -40px;
 }
 
 .methodology{
-        .methodology-session-text{
-            font-weight: 500;
-            font-size: 30px;
-            line-height: 45px;
-            text-transform: uppercase;
-            color: #DE7C15;
-            border-bottom: 2px solid #DE7C15;
-            display: inline-block;
-            position: relative;
-            padding-bottom: 5px;
-                &::before {
-                    content: "";
-                    width: 55px;
-                    height: 8px;
-                    position: absolute;
-                    left: 0;
-                    right: 0;
-                    bottom: -4px;
-                    margin: auto;
-                    background: #DE7C15;
-            }
            .information{
             p{
-                color: #fff !important;
+                font-size: 18px;
+                font-weight: 600;
             }
            }
-        }
         .First-text{
             
             p{
                 color: #5A5050;
+                font-size: 18px;
+
             }
             .arrow-1{
                 position: absolute;
@@ -7567,20 +7548,28 @@ left: -40px;
     background-image: url(../Issuance-image/Vector\ 6.svg);
     background-size: cover;
     width: 100%;
-    height: auto;
+    height: 100vh;
+    display: grid;
+    place-content: center;
     .first-percent{
-        margin-top: 5rem;
-        p{
+        h3{
             color: #fff;
-          font-size: 76px;
+            font-size: 76px;
+            font-weight: 200;
+            .sub-text{
+                font-weight: 700;
+            }
         }
     }
     .second-percent{
-        p{
+        h1{
             color: #FFFFFF;
             font-size: 500;
-            font-size: 64px;
-            gap: 2px;
+            font-size: 76px;
+            background: linear-gradient(91.01deg, #FFFFFF 2.65%, #8FFF00 106.32%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
         }
     }
     .third-percent{
@@ -7591,16 +7580,20 @@ left: -40px;
         }
     }
     .forth-percent{
-        p{
+        h1{
             color: #FFFFFF;
-            font-size: 500;
-            font-size: 30px;
+            font-size: 44px;
+            font-weight: 600;
+            background: linear-gradient(91.01deg, #FAFF00 2.65%, #EBFF00 106.32%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
         }
     }
     .fifth-percent{
-        p{
+        h1{
             color: #FFFFFF;
-            font-size: 800;
+            font-weight: 800;
             font-size: 56px;
         }
     }
@@ -7730,14 +7723,14 @@ left: -40px;
     .underwriting{
         font-weight: 500;
         color: #5A5050;
-        width: 70%;
+        width: 90%;
         margin: auto;
         padding: 1rem 0 1rem 0;
         font-size: 18px;
         font-weight: 600;
     }
     .policy{
-        width: 66%;
+        width: 80%;
         margin: auto;
         font-size: 18px;
     }
@@ -8577,6 +8570,7 @@ position: relative;
     display: inline-block;
     position: relative;
     padding-bottom: 5px;
+    font-weight: 700;
 
     &::before{
         content: '';
