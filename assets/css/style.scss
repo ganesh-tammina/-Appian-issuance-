@@ -7559,6 +7559,9 @@ left: -40px;
             .sub-text{
                 font-weight: 700;
             }
+            @media(max-width:767px){
+                font-size: 34px;
+            }
         }
     }
     .second-percent{
@@ -7570,6 +7573,9 @@ left: -40px;
 -webkit-background-clip: text;
 -webkit-text-fill-color: transparent;
 background-clip: text;
+@media(max-width:767px){
+    font-size: 32px;
+}
         }
     }
     .third-percent{
@@ -7577,6 +7583,9 @@ background-clip: text;
             color: #FFFFFF;
             font-size: 500;
             font-size: 76px;
+            @media(max-width:767px){
+                font-size: 18px;
+            }
         }
     }
     .forth-percent{
@@ -7588,6 +7597,9 @@ background-clip: text;
 -webkit-background-clip: text;
 -webkit-text-fill-color: transparent;
 background-clip: text;
+@media(max-width:767px){
+    font-size: 32px;
+}
         }
     }
     .fifth-percent{
@@ -7595,6 +7607,9 @@ background-clip: text;
             color: #FFFFFF;
             font-weight: 800;
             font-size: 56px;
+            @media(max-width:767px){
+                font-size: 32px;
+            }
         }
     }
 }

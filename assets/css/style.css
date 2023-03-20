@@ -7180,6 +7180,11 @@ area {
 .trillion .first-percent h3 .sub-text {
   font-weight: 700;
 }
+@media (max-width: 767px) {
+  .trillion .first-percent h3 {
+    font-size: 34px;
+  }
+}
 .trillion .second-percent h1 {
   color: #FFFFFF;
   font-size: 500;
@@ -7189,10 +7194,20 @@ area {
   -webkit-text-fill-color: transparent;
   background-clip: text;
 }
+@media (max-width: 767px) {
+  .trillion .second-percent h1 {
+    font-size: 32px;
+  }
+}
 .trillion .third-percent p {
   color: #FFFFFF;
   font-size: 500;
   font-size: 76px;
+}
+@media (max-width: 767px) {
+  .trillion .third-percent p {
+    font-size: 18px;
+  }
 }
 .trillion .forth-percent h1 {
   color: #FFFFFF;
@@ -7203,10 +7218,20 @@ area {
   -webkit-text-fill-color: transparent;
   background-clip: text;
 }
+@media (max-width: 767px) {
+  .trillion .forth-percent h1 {
+    font-size: 32px;
+  }
+}
 .trillion .fifth-percent h1 {
   color: #FFFFFF;
   font-weight: 800;
   font-size: 56px;
+}
+@media (max-width: 767px) {
+  .trillion .fifth-percent h1 {
+    font-size: 32px;
+  }
 }
 
 .methodology-2 .methodology-session-text {
