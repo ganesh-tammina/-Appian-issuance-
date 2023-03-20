@@ -7293,9 +7293,20 @@ left: -40px;
         
         
     }
+      
+        .desktopview{
+            display: none;
+        }
 }
 
 @media(min-width:992px){
+ 
+    .desktopview{
+        display: block;
+    }
+    .mobile-view{
+        display: none;
+    }
     .first-section{
         background-image: url('../Issuance-image/Vector\ 2.svg');
         width: 100%;
@@ -7497,21 +7508,37 @@ left: -40px;
             p{
                 color: #5A5050;
             }
+            @media (min-width : 992px){
+                .no-wrap{
+                    flex-wrap: nowrap;
+                  }  
+            }
+          
          .box-1{
             padding: 2rem;
             border: 2px solid #FF9F47;
             border-radius:12px;
+            margin: 0px 0.5rem 0rem 0.5rem;
+            margin-bottom: 1rem;
             h5{
-                background: linear-gradient(); 
+                background: radial-gradient(54.26% 113.36% at 31.08% 27.26%, rgba(250, 255, 0, 0.97) 0%, rgba(227, 73, 25, 0.97) 0.01%, #D7B507 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+                background-clip: text;
+                font-weight: 700;
+font-size: 18px;
+line-height: 27px;
             }
          }
             
             
         }
         .left-part{
-            position: relative;
-            top: 10rem;
-            right: -5rem;
+            // position: relative;
+            // top: 10rem;
+            // right: -5rem;
+            display: grid;
+            place-content: end;
         }
 
             .polygon-1{
@@ -8607,3 +8634,10 @@ place-content: center;
 }
 
 }
+
+
+.box-position{
+position: relative;
+left: 10px;
+}
+

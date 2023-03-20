@@ -6935,7 +6935,18 @@ area {
     height: 550px;
   }
 }
+@media (max-width: 991px) {
+  .desktopview {
+    display: none;
+  }
+}
 @media (min-width: 992px) {
+  .desktopview {
+    display: block;
+  }
+  .mobile-view {
+    display: none;
+  }
   .first-section {
     background-image: url("../Issuance-image/Vector 2.svg");
     width: 100%;
@@ -7125,18 +7136,30 @@ area {
 .methodology .second-text p {
   color: #5A5050;
 }
+@media (min-width: 992px) {
+  .methodology .second-text .no-wrap {
+    flex-wrap: nowrap;
+  }
+}
 .methodology .second-text .box-1 {
   padding: 2rem;
   border: 2px solid #FF9F47;
   border-radius: 12px;
+  margin: 0px 0.5rem 0rem 0.5rem;
+  margin-bottom: 1rem;
 }
 .methodology .second-text .box-1 h5 {
-  background: linear-gradient();
+  background: radial-gradient(54.26% 113.36% at 31.08% 27.26%, rgba(250, 255, 0, 0.97) 0%, rgba(227, 73, 25, 0.97) 0.01%, #D7B507 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 27px;
 }
 .methodology .left-part {
-  position: relative;
-  top: 10rem;
-  right: -5rem;
+  display: grid;
+  place-content: end;
 }
 .methodology .polygon-1 {
   position: absolute;
@@ -8169,4 +8192,9 @@ area {
   line-height: 45px;
   text-transform: capitalize;
   color: #FFFFFF;
+}
+
+.box-position {
+  position: relative;
+  left: 10px;
 }/*# sourceMappingURL=style.css.map */
