@@ -6920,22 +6920,13 @@ area {
   border-radius: 10px;
 }
 
-.methodology {
-  background-image: url("../TAMS imgs/methodology-bg-shape.svg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  height: 150vh;
-  width: 100%;
-  display: grid;
-  place-content: center;
-}
 .methodology .methodology-session-text {
   font-weight: 500;
   font-size: 30px;
   line-height: 45px;
   text-transform: uppercase;
-  color: #ffffff;
-  border-bottom: 2px solid #ffffff;
+  color: #DE7C15;
+  border-bottom: 2px solid #DE7C15;
   display: inline-block;
   position: relative;
   padding-bottom: 5px;
@@ -6949,22 +6940,13 @@ area {
   right: 0;
   bottom: -4px;
   margin: auto;
-  background: #ffffff;
+  background: #DE7C15;
 }
 .methodology .methodology-session-text .information p {
   color: #fff !important;
 }
-.methodology .First-text {
-  border-style: dotted;
-  border-color: yellow;
-  border-radius: 3rem;
-  padding: 2rem;
-  margin: 3rem 0 3rem 0;
-  width: 54rem;
-  position: relative;
-}
 .methodology .First-text p {
-  color: white;
+  color: #5A5050;
 }
 .methodology .First-text .arrow-1 {
   position: absolute;
@@ -6987,85 +6969,49 @@ area {
   margin: auto;
   color: yellow;
 }
-.methodology .second-text {
-  border-style: dotted;
-  border-color: yellow;
-  border-radius: 3rem;
-  padding: 2rem;
-  width: 54rem;
-  position: relative;
-}
 .methodology .second-text p {
-  color: white;
+  color: #5A5050;
 }
-.methodology .second-text .arro-1 {
-  position: absolute;
-  left: 13rem;
-  bottom: 216px;
+.methodology .second-text .box-1 {
+  padding: 2rem;
+  border: 1px solid #FF9F47;
 }
-.methodology .arro-2 {
-  position: absolute;
-  left: 39rem;
-  bottom: 216px;
-}
-.methodology .omni-text {
-  text-align: center;
-  position: absolute;
-  top: -21px;
-  left: 0;
-  right: 0;
-  background-color: #1c847f;
-  width: 50%;
-  margin: auto;
-  color: yellow;
-}
-
-.left-part {
+.methodology .left-part {
   position: relative;
 }
-.left-part .polygon-1 {
+.methodology .left-part .polygon-1 {
   position: absolute;
   top: 14rem;
   left: 16rem;
   animation: rotating 7s linear infinite;
 }
-.left-part .polygon-2 {
+.methodology .left-part .polygon-2 {
   position: absolute;
   top: 13.5rem;
   left: 34rem;
   animation: rotating 7s linear infinite;
 }
-.left-part .polygon-3 {
+.methodology .left-part .polygon-3 {
   position: absolute;
   top: 51rem;
   left: 25rem;
   animation: rotating 7s linear infinite;
 }
-.left-part .polygon-4 {
+.methodology .left-part .polygon-4 {
   position: absolute;
   top: 55rem;
   left: 21rem;
   animation: rotating 7s linear infinite;
 }
-.left-part .robo {
-  position: relative;
-}
-.left-part .robo img {
-  position: absolute;
-  top: 21rem;
-}
-
-.second-session.second-session-bg {
-  background-image: url("../TAMS imgs/Over-view-Ifographics.svg");
+.methodology .second-session.second-session-bg {
   width: 100%;
   height: 100%;
   background-repeat: no-repeat;
   background-position: bottom;
   background-size: contain;
 }
-.second-session .second-session-before::before {
+.methodology .second-session .second-session-before::before {
   content: "";
-  background-image: url("../TAMS imgs/blue-wheel.svg");
   position: absolute;
   width: 100%;
   height: 500px;
@@ -7073,18 +7019,18 @@ area {
   background-repeat: no-repeat;
   background-position-y: center;
 }
-.second-session .second-session-text {
+.methodology .second-session .second-session-text {
   font-weight: 500;
   font-size: 30px;
   line-height: 45px;
   text-transform: uppercase;
-  color: #243C78;
-  border-bottom: 2px solid #243C78;
+  color: #DE7C15;
+  border-bottom: 2px solid #DE7C15;
   display: inline-block;
   position: relative;
   padding-bottom: 5px;
 }
-.second-session .second-session-text::before {
+.methodology .second-session .second-session-text::before {
   content: "";
   width: 55px;
   height: 8px;
@@ -7093,24 +7039,28 @@ area {
   right: 0;
   bottom: -4px;
   margin: auto;
-  background: #243C78;
+  background: #DE7C15;
 }
-.second-session p {
-  font-size: 18px;
-}
-.second-session p .first-content {
+.methodology .second-session .underwriting {
   font-weight: 500;
+  color: #5A5050;
+  width: 70%;
+  margin: auto;
+  padding: 2rem 0 2rem 0;
 }
-.second-session .card-flex {
+.methodology .second-session .policy {
+  width: 66%;
+  margin: auto;
+}
+.methodology .second-session .card-flex {
   display: flex;
   flex-wrap: wrap;
 }
-.second-session .card-content {
+.methodology .second-session .card-content {
   display: grid;
   place-content: center;
 }
-
-.third-session {
+.methodology .third-session {
   background-image: url(../IRP-assets/blue-gradient-shape.svg);
   width: 100%;
   height: 100vh;
@@ -7120,45 +7070,45 @@ area {
   place-content: center;
   padding: 3rem 0rem;
 }
-.third-session .key-text {
+.methodology .third-session .key-text {
   margin-top: 3rem;
 }
 @media (max-width: 767px) {
-  .third-session {
+  .methodology .third-session {
     height: auto;
   }
-  .third-session .key-text {
+  .methodology .third-session .key-text {
     margin-top: 0rem;
     margin-bottom: 2rem;
   }
 }
 @media (max-width: 767px) {
-  .third-session {
+  .methodology .third-session {
     padding: 14rem 0rem;
   }
 }
-.third-session .third-session-heading {
+.methodology .third-session .third-session-heading {
   font-weight: 700;
   font-size: 30px;
   text-transform: uppercase;
 }
 @media (max-width: 767px) {
-  .third-session .third-session-heading {
+  .methodology .third-session .third-session-heading {
     font-size: 20px;
   }
 }
 @media only screen and (min-width: 320px) and (max-width: 575px) {
-  .third-session .third-session-heading {
+  .methodology .third-session .third-session-heading {
     font-size: 15px;
     padding: 5rem 0 5rem 0;
   }
 }
-.third-session .third-session-heading .keytext {
+.methodology .third-session .third-session-heading .keytext {
   border-bottom: 3px solid white;
   padding-bottom: 5px;
   position: relative;
 }
-.third-session .third-session-heading .keytext::before {
+.methodology .third-session .third-session-heading .keytext::before {
   content: "";
   width: 55px;
   height: 8px;
@@ -7169,7 +7119,7 @@ area {
   margin: auto;
   background: white;
 }
-.third-session .third-session-keypoints {
+.methodology .third-session .third-session-keypoints {
   height: 530px;
   align-items: center;
   justify-content: center;
@@ -7177,31 +7127,31 @@ area {
   position: relative;
 }
 @media (max-width: 767px) {
-  .third-session .third-session-keypoints {
+  .methodology .third-session .third-session-keypoints {
     height: auto;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  .third-session .third-session-keypoints {
+  .methodology .third-session .third-session-keypoints {
     height: 416px;
   }
 }
-.third-session .third-session-keypoints .third-session-img {
+.methodology .third-session .third-session-keypoints .third-session-img {
   position: absolute;
   z-index: 99;
 }
 @media (max-width: 767px) {
-  .third-session .third-session-keypoints .third-session-img {
+  .methodology .third-session .third-session-keypoints .third-session-img {
     display: none;
   }
 }
-.third-session .third-session-keypoints .common-box {
+.methodology .third-session .third-session-keypoints .common-box {
   border: 1px solid white;
   border-radius: 10px;
   margin-bottom: 40px;
   padding: 10px 10px;
 }
-.third-session .third-session-keypoints .common-box .common-point {
+.methodology .third-session .third-session-keypoints .common-box .common-point {
   font-weight: 500;
   font-size: 15px;
   line-height: 23px;
@@ -7213,107 +7163,105 @@ area {
   margin-right: 0;
 }
 @media (min-width: 768px) {
-  .third-session .third-session-keypoints .common-box .common-point {
+  .methodology .third-session .third-session-keypoints .common-box .common-point {
     font-size: 12px;
     line-height: 15px;
   }
 }
-.third-session .third-session-keypoints .common-box .pen-icon {
+.methodology .third-session .third-session-keypoints .common-box .pen-icon {
   right: 0 !important;
   margin: auto;
   border: 1px solid white;
   padding: 8px;
   border-radius: 10px;
 }
-.third-session .third-session-keypoints .third-session-keyboxs {
+.methodology .third-session .third-session-keypoints .third-session-keyboxs {
   margin-right: 130px;
 }
 @media (max-width: 767px) {
-  .third-session .third-session-keypoints .third-session-keyboxs {
+  .methodology .third-session .third-session-keypoints .third-session-keyboxs {
     margin-right: 0px;
   }
 }
-.third-session .third-session-keypoints .common-box-one {
+.methodology .third-session .third-session-keypoints .common-box-one {
   position: relative;
   right: 45px;
 }
 @media (max-width: 767px) {
-  .third-session .third-session-keypoints .common-box-one {
+  .methodology .third-session .third-session-keypoints .common-box-one {
     right: 0px;
     flex-direction: row-reverse;
   }
 }
-.third-session .third-session-keypoints .common-box-one-right {
+.methodology .third-session .third-session-keypoints .common-box-one-right {
   position: relative;
   left: 45px;
 }
 @media (max-width: 767px) {
-  .third-session .third-session-keypoints .common-box-one-right {
+  .methodology .third-session .third-session-keypoints .common-box-one-right {
     left: 0px;
   }
 }
-.third-session .third-session-keypoints .third-session-keyboxs :nth-child(2) {
+.methodology .third-session .third-session-keypoints .third-session-keyboxs :nth-child(2) {
   position: relative;
   right: 93px;
 }
 @media (max-width: 767px) {
-  .third-session .third-session-keypoints .third-session-keyboxs :nth-child(2) {
+  .methodology .third-session .third-session-keypoints .third-session-keyboxs :nth-child(2) {
     right: 0px;
     flex-direction: row-reverse;
   }
 }
-.third-session .third-session-keypoints .third-session-keyboxs :nth-child(3) {
+.methodology .third-session .third-session-keypoints .third-session-keyboxs :nth-child(3) {
   position: relative;
   right: 50px;
 }
 @media (max-width: 767px) {
-  .third-session .third-session-keypoints .third-session-keyboxs :nth-child(3) {
+  .methodology .third-session .third-session-keypoints .third-session-keyboxs :nth-child(3) {
     right: 0px;
     flex-direction: row-reverse;
   }
 }
-.third-session .third-session-keypoints .third-session-keyboxs-right :nth-child(2) {
+.methodology .third-session .third-session-keypoints .third-session-keyboxs-right :nth-child(2) {
   position: relative;
   right: -92px;
 }
 @media (max-width: 767px) {
-  .third-session .third-session-keypoints .third-session-keyboxs-right :nth-child(2) {
+  .methodology .third-session .third-session-keypoints .third-session-keyboxs-right :nth-child(2) {
     right: 0px;
   }
 }
-.third-session .third-session-keypoints .third-session-keyboxs-right :nth-child(1) {
+.methodology .third-session .third-session-keypoints .third-session-keyboxs-right :nth-child(1) {
   position: relative;
 }
-.third-session .third-session-keypoints .third-session-keyboxs-right :nth-child(3) {
+.methodology .third-session .third-session-keypoints .third-session-keyboxs-right :nth-child(3) {
   position: relative;
   right: -50px;
 }
 @media (max-width: 767px) {
-  .third-session .third-session-keypoints .third-session-keyboxs-right :nth-child(3) {
+  .methodology .third-session .third-session-keypoints .third-session-keyboxs-right :nth-child(3) {
     right: 0px;
   }
 }
-.third-session .third-session-keypoints .third-session-keyboxs-right .common-point {
+.methodology .third-session .third-session-keypoints .third-session-keyboxs-right .common-point {
   text-align: left;
 }
-
-.fourth-session {
+.methodology .fourth-session {
   background-image: url(../IRP-assets/bg-methodology.png);
   height: 1000px;
   background-size: cover;
 }
 @media (max-width: 991px) {
-  .fourth-session {
+  .methodology .fourth-session {
     height: auto;
   }
 }
-
-.mini-section {
+.methodology .mini-section {
   text-align: center;
   position: relative;
   bottom: 140px;
 }
-.mini-section .benefits-text {
+.methodology .mini-section .benefits-text {
   width: 145px;
   font-weight: 700;
   font-size: 30px;
@@ -7326,7 +7274,7 @@ area {
   bottom: calc(100% - 12px);
   right: 82%;
 }
-.mini-section .benefits-text::after {
+.methodology .mini-section .benefits-text::after {
   content: "";
   width: 55px;
   height: 8px;
@@ -7337,7 +7285,7 @@ area {
   margin: auto;
   background: #0085FF;
 }
-.mini-section .benifits-card {
+.methodology .mini-section .benifits-card {
   width: 272px;
   height: 300px;
   margin: 0px 10px;
@@ -7348,7 +7296,7 @@ area {
   margin-bottom: 15px;
   animation: movebounce-up 5s infinite;
 }
-.mini-section .benifits-card .benfits-flow {
+.methodology .mini-section .benifits-card .benfits-flow {
   font-weight: 700;
   font-size: 15px;
   line-height: 27px;
@@ -7356,17 +7304,17 @@ area {
   text-transform: uppercase;
   color: #FFFFFF;
 }
-.mini-section .two {
+.methodology .mini-section .two {
   background: radial-gradient(123.86% 123.86% at -5.19% -18.67%, #930AFF 0%, #FA07FF 100%);
   position: relative;
   opacity: 0;
   animation: movebounce-up 5s infinite;
   animation-delay: 2s;
 }
-.mini-section .two.active {
+.methodology .mini-section .two.active {
   opacity: 1;
 }
-.mini-section .active.fade-bottom {
+.methodology .mini-section .active.fade-bottom {
   animation: fade-bottom 1s ease-in;
 }
 @keyframes fade-bottom {
@@ -7379,83 +7327,80 @@ area {
     opacity: 1;
   }
 }
-.mini-section .threes {
+.methodology .mini-section .threes {
   background: linear-gradient(138.3deg, #00D1FF -13.67%, #19C69C 103.52%);
   position: relative;
   opacity: 0;
   animation: movebounce-up 5s infinite;
   animation-delay: 3s;
 }
-.mini-section .threes.active {
+.methodology .mini-section .threes.active {
   opacity: 1;
 }
-.mini-section .active.fade-bottom {
+.methodology .mini-section .active.fade-bottom {
   animation: fade-bottom 1s ease-in;
 }
-.mini-section .four {
+.methodology .mini-section .four {
   background: linear-gradient(145.76deg, #EE4646 -14.2%, rgba(242, 194, 69, 0.96) 117.67%);
   position: relative;
   opacity: 0;
   animation: movebounce-up 5s infinite;
   animation-delay: 4s;
 }
-.mini-section .four.active {
+.methodology .mini-section .four.active {
   opacity: 1;
 }
-.mini-section .active.fade-bottom {
+.methodology .mini-section .active.fade-bottom {
   animation: fade-bottom 1s ease-in;
 }
-.mini-section .first-card {
+.methodology .mini-section .first-card {
   position: relative;
   opacity: 0;
 }
-.mini-section .first-card.active {
+.methodology .mini-section .first-card.active {
   opacity: 1;
 }
-.mini-section .first-card.fade-bottom {
+.methodology .mini-section .first-card.fade-bottom {
   animation: fade-bottom 1s ease-in;
 }
-
-.card-align {
+.methodology .card-align {
   border: 0px !important;
   box-shadow: 0px 4px 13px rgba(0, 0, 0, 0.25);
   display: grid;
   place-items: center;
 }
-
-.card-align-left {
+.methodology .card-align-left {
   margin-left: auto;
 }
 @media (min-width: 992px) {
-  .card-align-left {
+  .methodology .card-align-left {
     position: relative;
     left: 22px;
   }
 }
-
 @media (min-width: 1350px) {
-  .two, .four {
+  .methodology .two, .methodology .four {
     position: relative;
     top: 80px;
   }
 }
 @media (max-width: 1350px) {
-  .mini-section {
+  .methodology .mini-section {
     margin-top: 67px;
   }
-  .mini-section .benefits-text {
+  .methodology .mini-section .benefits-text {
     left: 0px;
     right: 0px;
     margin: auto;
   }
 }
 @media (max-width: 991px) {
-  .mini-section {
+  .methodology .mini-section {
     margin-top: 67px;
     bottom: 0px;
   }
 }
-.global-session {
+.methodology .global-session {
   background: linear-gradient(99.36deg, #401C1C -10.42%, #00C1DB 105.7%);
   box-shadow: 6px 21px 60px 2px rgba(0, 0, 0, 0.17);
   border-radius: 17px;
@@ -7465,56 +7410,56 @@ area {
   height: 100%;
 }
 @media (max-width: 320px) {
-  .global-session {
+  .methodology .global-session {
     margin-top: 16rem;
   }
 }
 @media (min-width: 992px) {
-  .global-session {
+  .methodology .global-session {
     height: 560px;
   }
 }
-.global-session .first-line {
+.methodology .global-session .first-line {
   font-weight: 700;
   font-size: 39px;
 }
 @media only screen and (min-width: 576px) and (max-width: 767px) {
-  .global-session .first-line {
+  .methodology .global-session .first-line {
     font-size: 23px;
   }
 }
 @media only screen and (min-width: 320px) and (max-width: 575px) {
-  .global-session .first-line {
+  .methodology .global-session .first-line {
     font-size: 18px;
   }
 }
-.global-session .second-line {
+.methodology .global-session .second-line {
   font-weight: 900;
   font-size: 65px;
   line-height: 106px;
 }
 @media only screen and (min-width: 576px) and (max-width: 767px) {
-  .global-session .second-line {
+  .methodology .global-session .second-line {
     font-size: 23px;
   }
 }
 @media (max-width: 320px) {
-  .global-session .second-line {
+  .methodology .global-session .second-line {
     font-size: 50px;
     line-height: 80px;
   }
 }
-.global-session .third-line {
+.methodology .global-session .third-line {
   font-weight: 600;
   font-size: 30px;
   line-height: 45px;
 }
 @media only screen and (min-width: 576px) and (max-width: 767px) {
-  .global-session .third-line {
+  .methodology .global-session .third-line {
     font-size: 23px;
   }
 }
-.global-session .fouth-line {
+.methodology .global-session .fouth-line {
   font-weight: 600;
   font-size: 75px;
   line-height: 112px;
@@ -7524,18 +7469,17 @@ area {
   -webkit-text-fill-color: transparent;
 }
 @media only screen and (min-width: 576px) and (max-width: 767px) {
-  .global-session .fouth-line {
+  .methodology .global-session .fouth-line {
     font-size: 42px;
   }
 }
 @media (max-width: 320px) {
-  .global-session .fouth-line {
+  .methodology .global-session .fouth-line {
     font-size: 50px;
     line-height: 80px;
   }
 }
-
-.low-code {
+.methodology .low-code {
   background-image: url(../IRP-assets/foregroung-blue-shape.svg);
   height: 100vh;
   background-size: cover;
@@ -7547,17 +7491,17 @@ area {
   z-index: -9;
 }
 @media only screen and (min-width: 576px) and (max-width: 767px) {
-  .low-code {
+  .methodology .low-code {
     bottom: 0;
     height: auto;
   }
 }
 @media only screen and (min-width: 320px) and (max-width: 991px) {
-  .low-code {
+  .methodology .low-code {
     bottom: 0;
   }
 }
-.low-code .low-code-text {
+.methodology .low-code .low-code-text {
   font-weight: 700;
   font-size: 30px;
   line-height: 45px;
@@ -7566,12 +7510,12 @@ area {
   position: relative;
 }
 @media (max-width: 991px) {
-  .low-code .low-code-text {
+  .methodology .low-code .low-code-text {
     background-size: none;
     bottom: none;
   }
 }
-.low-code .low-code-text::after {
+.methodology .low-code .low-code-text::after {
   content: "";
   width: 55px;
   height: 8px;
@@ -7582,17 +7526,14 @@ area {
   margin: auto;
   background: white;
 }
-
-.system-img {
+.methodology .system-img {
   background: radial-gradient(50% 50% at 50% 50%, #FFFFFF 0%, rgba(217, 217, 217, 0) 103%);
 }
-
-.d-place {
+.methodology .d-place {
   display: grid;
   place-content: center;
 }
-
-.second-session-text {
+.methodology .second-session-text {
   font-weight: 500;
   font-size: 30px;
   line-height: 45px;
@@ -7603,10 +7544,10 @@ area {
   position: relative;
   padding-bottom: 5px;
 }
-.second-session-text.second-session-text-tammina {
+.methodology .second-session-text.second-session-text-tammina {
   border-bottom: 2px solid white;
 }
-.second-session-text::before {
+.methodology .second-session-text::before {
   content: "";
   width: 55px;
   height: 8px;
@@ -7617,11 +7558,10 @@ area {
   margin: auto;
   background: white;
 }
-
-.animate-bg {
+.methodology .animate-bg {
   position: relative;
 }
-.animate-bg::before {
+.methodology .animate-bg::before {
   content: "";
   background-image: url(../animation/back-bot.svg);
   position: absolute;
@@ -7631,7 +7571,7 @@ area {
   background-position: center;
   animation: blink 2s linear infinite;
 }
-.animate-bg::after {
+.methodology .animate-bg::after {
   content: "";
   background-image: url(../animation/bot-fade-out.svg);
   position: absolute;
@@ -7641,7 +7581,6 @@ area {
   background-position: center;
   left: 0;
 }
-
 @keyframes blink {
   0% {
     opacity: 0;
@@ -7656,11 +7595,11 @@ area {
     filter: drop-shadow(-31px 50px 50px rgba(255, 212, 255, 0.7294117647));
   }
 }
-.animate-outer {
+.methodology .animate-outer {
   border-radius: 50%;
   position: relative;
 }
-.animate-outer::after {
+.methodology .animate-outer::after {
   content: "";
   background-image: url(../animation/Ellipse-1.svg);
   width: 45%;
@@ -7674,7 +7613,7 @@ area {
   top: 0;
   bottom: 0;
 }
-.animate-outer::before {
+.methodology .animate-outer::before {
   content: "";
   background-image: url(../animation/Ellipse2.svg);
   width: 100%;
@@ -7690,7 +7629,6 @@ area {
   animation-delay: 2s;
   z-index: 99;
 }
-
 @keyframes rotating {
   from {
     transform: rotate(0deg);
@@ -7699,10 +7637,10 @@ area {
     transform: rotate(360deg);
   }
 }
-.animate-inner {
+.methodology .animate-inner {
   position: relative;
 }
-.animate-inner::after {
+.methodology .animate-inner::after {
   content: "";
   background-image: url(../animation/Ellipse-3.svg);
   position: absolute;
@@ -7716,7 +7654,7 @@ area {
   top: 0;
   bottom: 0;
 }
-.animate-inner::before {
+.methodology .animate-inner::before {
   content: "";
   background-image: url(../animation/Ellipse-4.svg);
   position: absolute;
@@ -7732,13 +7670,11 @@ area {
   animation-delay: 2s;
   z-index: 99;
 }
-
-.reports-img {
+.methodology .reports-img {
   -o-object-fit: contain;
      object-fit: contain;
 }
-
-.tammina-session {
+.methodology .tammina-session {
   background-image: url("../TAMS imgs/locode-&-why-tech-bg.svg");
   width: 100%;
   height: 200vh;
@@ -7747,10 +7683,10 @@ area {
   place-content: center;
   padding: 50px 0px;
 }
-.tammina-session .tammina-session-reports {
+.methodology .tammina-session .tammina-session-reports {
   position: relative;
 }
-.tammina-session .tammina-session-reports::after {
+.methodology .tammina-session .tammina-session-reports::after {
   content: "";
   background-image: url("../TAMS imgs/Vector-squre.svg");
   position: absolute;
@@ -7762,7 +7698,7 @@ area {
   top: -83px;
   animation: rotating 7s linear infinite;
 }
-.tammina-session .design-card-support {
+.methodology .tammina-session .design-card-support {
   height: 150px;
   background: linear-gradient(96.21deg, #247378 22.34%, #782470 73.25%);
   box-shadow: 0px 4px 33px rgba(0, 0, 0, 0.44);
@@ -7770,11 +7706,11 @@ area {
   display: grid;
   text-align: center;
 }
-.tammina-session .design-card-support .Connect-content {
+.methodology .tammina-session .design-card-support .Connect-content {
   display: grid;
   place-content: center;
 }
-.tammina-session .design-card-support .Connect-content .Connect-btn {
+.methodology .tammina-session .design-card-support .Connect-content .Connect-btn {
   border: 3px solid #FFFFFF;
   border-radius: 9px;
   height: 85px;
@@ -7786,14 +7722,14 @@ area {
   text-transform: capitalize;
   color: #FFFFFF;
 }
-.tammina-session .tech-robo-align {
+.methodology .tammina-session .tech-robo-align {
   position: relative;
   top: 41px;
 }
-.tammina-session .tammina-block {
+.methodology .tammina-session .tammina-block {
   position: relative;
 }
-.tammina-session .tammina-block::after {
+.methodology .tammina-session .tammina-block::after {
   content: "";
   width: 150px;
   height: 150px;
@@ -7805,10 +7741,10 @@ area {
   right: 0;
   animation: running-in 15s linear infinite;
 }
-.tammina-session .tammina-text {
+.methodology .tammina-session .tammina-text {
   position: relative;
 }
-.tammina-session .tammina-text::before {
+.methodology .tammina-session .tammina-text::before {
   content: "";
   width: 75px;
   height: 75px;
@@ -7819,32 +7755,28 @@ area {
   left: -44px;
   animation: running-in 15s linear infinite;
 }
-
-.mid-text {
+.methodology .mid-text {
   background: linear-gradient(101.82deg, #00A3FF 25.05%, #36C98B 58.66%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
   font-weight: bold;
 }
-
-.height-100 {
+.methodology .height-100 {
   height: 100vh;
 }
-
-.d-grid-align {
+.methodology .d-grid-align {
   display: grid;
   place-content: center;
 }
-
-.icon-set {
+.methodology .icon-set {
   width: 75px;
   height: 75px;
   background-color: #4D4AD6;
   border-radius: 50px;
   position: relative;
 }
-.icon-set::after {
+.methodology .icon-set::after {
   content: "";
   background-image: url("../TAMS imgs/circle.svg");
   position: absolute;
@@ -7857,100 +7789,34 @@ area {
   background-position: center;
   animation: rotating 15s linear infinite;
 }
-
-.key-features-section {
-  position: relative;
-  background-image: url("../TAMS imgs/3-lined-elips.svg");
-  position: absolute;
+.methodology .features-text {
+  background-image: url(assets/Issuance-image/back-ground-vector.svg);
+  height: 64vh;
   width: 100%;
-  height: 344px;
-  background-size: contain;
   background-repeat: no-repeat;
-  background-position-y: center;
-  left: 0;
-  align-items: center;
-  display: flex;
+  margin: auto;
   position: relative;
 }
-.key-features-section::before {
-  content: "";
-  background-image: url("../TAMS imgs/key-polygon-2.svg");
-  position: absolute;
-  width: 50px;
-  height: 50px;
-  bottom: 0;
-  background-repeat: no-repeat;
-  top: -20px;
-  left: 0;
-  right: 0;
-  animation: rotating 15s linear infinite;
-}
-.key-features-section::after {
-  content: "";
-  background-image: url("../TAMS imgs/key-polygon-5.svg");
-  position: absolute;
-  width: 50px;
-  height: 50px;
-  bottom: 0;
-  background-repeat: no-repeat;
-  left: 84px;
-  right: 0;
-  bottom: -13px;
-  animation: rotating 15s linear infinite;
-}
-.key-features-section img {
-  z-index: 9;
-}
-.key-features-section .features-text {
-  position: relative;
-}
-.key-features-section .features-text::after {
-  content: "";
-  background-image: url("../TAMS imgs/Key-features-gear-1.svg");
-  position: absolute;
-  background-size: contain;
-  background-repeat: no-repeat;
-  width: 400px;
-  height: 400px;
-  top: 0;
-  right: -200px;
+.methodology .features-text .left-side p {
+  width: 60%;
+  text-align: center;
   margin: auto;
-  bottom: 0;
-  background-position: right;
-  animation: rotating 15s linear infinite;
+  color: #fff;
+  padding: 2rem 0 2rem 0;
 }
-@media (max-width: 991px) {
-  .key-features-section .features-text::after {
-    display: none;
-  }
-}
-.key-features-section .features-text::before {
-  content: "";
-  background-image: url("../TAMS imgs/Key-features-gear-2.svg");
-  position: absolute;
-  background-size: contain;
-  background-repeat: no-repeat;
-  width: 300px;
-  height: 300px;
-  right: -380px;
+.methodology .features-text .right-side p {
+  width: 75%;
+  text-align: center;
   margin: auto;
-  bottom: 0;
-  background-position: bottom;
-  animation: rotating 15s linear infinite;
+  color: #fff;
+  padding: 2rem 0 2rem 0;
 }
-@media (max-width: 991px) {
-  .key-features-section .features-text::before {
-    display: none;
-  }
-}
-
-.key-text {
+.methodology .key-text {
   font-size: 16px;
   font-weight: 600;
 }
-
 @media (max-width: 991px) {
-  .key-text {
+  .methodology .key-text {
     margin: auto;
     text-align: center;
   }
