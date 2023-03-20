@@ -6556,15 +6556,15 @@ Buy Now Btn
 
 .play-more {
   border: 2px solid;
-  padding: 7px 12px;
+  padding: 10px 12px;
   position: relative;
   display: inline-block;
   border-radius: 10rem;
   color: #fff;
   text-transform: uppercase;
-  font-size: 1rem;
+  font-size: 1.4rem;
   letter-spacing: 0.15rem;
-  transition: all 0.3s;
+  font-weight: 600;
   position: relative;
   overflow: hidden;
   z-index: 1;
@@ -6572,25 +6572,12 @@ Buy Now Btn
 .play-more.click-more {
   padding: 1px 15px;
 }
-.play-more:before {
-  content: "";
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 0%;
-  height: 100%;
-  background: linear-gradient(#7BA6E2, #1256B6);
-  transition: all 0.9s;
-  border-radius: 10rem;
-  z-index: -1;
-  animation: gani 0.9s infinite;
-}
 .play-more:hover {
   color: #fff;
+  text-decoration: none;
 }
 .play-more:hover:before {
   width: 100%;
-  animation: gani 0s 1;
 }
 
 .footer-list-line {
@@ -6843,7 +6830,7 @@ area {
 }
 
 .first-section {
-  background-image: url("../TAMS imgs/hero-bg-shape.svg");
+  background-image: url("../Issuance-image/Vector 2.svg");
   width: 100%;
   height: 100vh;
   background-size: cover;
@@ -6864,7 +6851,7 @@ area {
   font-size: 42px;
   line-height: 1.2;
   font-weight: 700;
-  padding-bottom: 15px;
+  margin: 0;
 }
 @media (max-width: 320px) {
   .first-section .first-section-content h2 {
