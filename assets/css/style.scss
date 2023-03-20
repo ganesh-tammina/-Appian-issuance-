@@ -7681,6 +7681,11 @@ background-clip: text;
         border: 2px dashed #BF2E2E;
         border-radius:12px;
         position: relative;
+        width: 49%;
+        @media(max-width:767px){
+            margin-bottom: 34px;
+          
+        }
         .omni{
             position: absolute;
     background-color: white;
@@ -7712,6 +7717,8 @@ background-clip: text;
         border: 2px dashed #BF2E2E;
         border-radius:12px;
         position: relative;
+        width: 49%;
+  margin-left: auto;
         .rpa{
             position: absolute;
             background-color: white;
@@ -8536,17 +8543,19 @@ font-weight: bold;
     display: grid;
     place-content: center;
     position: relative;
+    @media(max-width:767px){
+        height: 200vh;
+    }
     @media(min-width:992px){
-        height: 50vh;
+        height: 65vh;
     }
     .top-view{
-        position: absolute;
-        top: -36px;
-        @media (min-width: 576px) and (max-width: 767px) {
-          height: 100vh;
-          top: 0;
-          position: static;
-         }
+        @media(min-width:992px){
+            position: absolute;
+            top: -36px;
+        }
+   
+  
     .left-side{
            p{
             width: 72%;
@@ -8575,22 +8584,25 @@ font-weight: bold;
 
 .low-code{
     background-image: url('../Issuance-image/Vector\ 7.svg');
-    height: 75vh;
+    height: 130vh;
     background-size: cover;
     background-repeat: no-repeat;
     display: grid;
     place-items: end;
     position: relative;
-    @media only screen and (min-width:576px) and (max-width:767px){
-        bottom: 0;
-        height:auto;
-        }
-    @media only screen and (min-width: 320px) and (max-width:991px){
-        bottom: 0;
-        
-     }
+  @media(max-width:767px){
+    height: 250vh;
+    padding: 3rem 0rem;
+  }
+  @media(max-width:991px){
+    height: 250vh;
+    padding: 3rem 0rem;
+  }
 
-     
+   p{
+    font-size: 18px;
+    font-weight: 400;
+   }  
     .low-code-text{
         font-weight: 700;
 font-size: 30px;
@@ -8644,7 +8656,7 @@ position: relative;
 
 .last-section{
 background-image: url(../Issuance-image/Vector\ 8.svg);
-height: 32vh;
+height: 90vh;
 background-size: cover;
 display: grid;
 place-content: center;

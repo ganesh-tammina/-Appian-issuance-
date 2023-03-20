@@ -7293,6 +7293,12 @@ area {
   border: 2px dashed #BF2E2E;
   border-radius: 12px;
   position: relative;
+  width: 49%;
+}
+@media (max-width: 767px) {
+  .methodology-2 .left-box {
+    margin-bottom: 34px;
+  }
 }
 .methodology-2 .left-box .omni {
   position: absolute;
@@ -7324,6 +7330,8 @@ area {
   border: 2px dashed #BF2E2E;
   border-radius: 12px;
   position: relative;
+  width: 49%;
+  margin-left: auto;
 }
 .methodology-2 .right-box .rpa {
   position: absolute;
@@ -8109,20 +8117,20 @@ area {
   place-content: center;
   position: relative;
 }
-@media (min-width: 992px) {
+@media (max-width: 767px) {
   .features-text {
-    height: 50vh;
+    height: 200vh;
   }
 }
-.features-text .top-view {
-  position: absolute;
-  top: -36px;
+@media (min-width: 992px) {
+  .features-text {
+    height: 65vh;
+  }
 }
-@media (min-width: 576px) and (max-width: 767px) {
+@media (min-width: 992px) {
   .features-text .top-view {
-    height: 100vh;
-    top: 0;
-    position: static;
+    position: absolute;
+    top: -36px;
   }
 }
 .features-text .top-view .left-side p {
@@ -8146,23 +8154,28 @@ area {
 
 .low-code {
   background-image: url("../Issuance-image/Vector 7.svg");
-  height: 75vh;
+  height: 130vh;
   background-size: cover;
   background-repeat: no-repeat;
   display: grid;
   place-items: end;
   position: relative;
 }
-@media only screen and (min-width: 576px) and (max-width: 767px) {
+@media (max-width: 767px) {
   .low-code {
-    bottom: 0;
-    height: auto;
+    height: 250vh;
+    padding: 3rem 0rem;
   }
 }
-@media only screen and (min-width: 320px) and (max-width: 991px) {
+@media (max-width: 991px) {
   .low-code {
-    bottom: 0;
+    height: 250vh;
+    padding: 3rem 0rem;
   }
+}
+.low-code p {
+  font-size: 18px;
+  font-weight: 400;
 }
 .low-code .low-code-text {
   font-weight: 700;
@@ -8216,7 +8229,7 @@ area {
 
 .last-section {
   background-image: url(../Issuance-image/Vector\ 8.svg);
-  height: 32vh;
+  height: 90vh;
   background-size: cover;
   display: grid;
   place-content: center;
