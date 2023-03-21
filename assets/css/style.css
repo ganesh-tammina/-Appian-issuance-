@@ -7217,6 +7217,7 @@ area {
   height: 100vh;
   display: grid;
   place-content: center;
+  margin: 6rem 0 6rem 0;
 }
 .trillion .first-percent h3 {
   color: #fff;
@@ -7290,6 +7291,7 @@ area {
   display: inline-block;
   position: relative;
   padding-bottom: 5px;
+  margin: 6rem 0 6rem 0;
 }
 .methodology-2 .methodology-session-text::before {
   content: "";
@@ -7390,6 +7392,7 @@ area {
   background-repeat: no-repeat;
   background-position: bottom;
   background-size: contain;
+  margin: 6rem 0 6rem 0;
 }
 .second-session .second-session-before::before {
   content: "";
@@ -8140,6 +8143,7 @@ area {
   display: grid;
   place-content: center;
   position: relative;
+  margin: 6rem 0 6rem 0;
 }
 @media (max-width: 767px) {
   .features-text {
