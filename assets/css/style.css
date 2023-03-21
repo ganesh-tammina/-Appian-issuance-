@@ -7098,18 +7098,38 @@ area {
   display: grid;
   place-content: center;
 }
+@media (max-width: 575px) {
+  .first-section-mobile .img-desktop img {
+    display: none;
+  }
+}
 .first-section-mobile .first-section-mobile-text h2 {
   font-size: 35px;
   font-weight: 700;
   line-height: 1.2;
 }
+@media (max-width: 767px) {
+  .first-section-mobile .first-section-mobile-text h2 {
+    font-size: 24px;
+  }
+}
 .first-section-mobile .first-section-mobile-text h3 {
   font-size: 30px;
   line-height: 1.2;
 }
+@media (max-width: 767px) {
+  .first-section-mobile .first-section-mobile-text h3 {
+    font-size: 18px;
+  }
+}
 .first-section-mobile .first-section-mobile-text p {
   font-size: 28px;
   line-height: 1.2;
+}
+@media (max-width: 767px) {
+  .first-section-mobile .first-section-mobile-text p {
+    font-size: 18px;
+  }
 }
 @media (min-width: 992px) {
   .first-section-mobile {
@@ -7166,7 +7186,6 @@ area {
   }
 }
 .methodology .second-text .box-1 {
-  padding: 2rem;
   border: 2px solid #FF9F47;
   border-radius: 12px;
   margin: 0px 0.5rem 0rem 0.5rem;
@@ -7182,8 +7201,27 @@ area {
   line-height: 27px;
 }
 .methodology .left-part {
+  background-image: url("../Issuance-image/bot-poly.svg");
+  /* background-size: cover; */
+  width: 32%;
+  height: 100%;
   display: grid;
   place-content: end;
+  position: absolute;
+  background-repeat: no-repeat;
+  /* background-position: right; */
+  right: 85px;
+}
+@media (max-width: 767px) {
+  .methodology .left-part {
+    background-image: none;
+  }
+}
+.methodology .left-part .robo img {
+  position: absolute;
+  top: 18rem;
+  right: 229px;
+  animation: movebounce-up 5s infinite;
 }
 .methodology .polygon-1 {
   position: absolute;
