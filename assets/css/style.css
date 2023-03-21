@@ -7876,7 +7876,7 @@ area {
   padding-bottom: 5px;
 }
 .second-session-text.second-session-text-tammina {
-  border-bottom: 2px solid red;
+  border-bottom: 2px solid #DE7C15;
 }
 .second-session-text::before {
   content: "";
