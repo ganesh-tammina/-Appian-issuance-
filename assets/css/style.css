@@ -7033,6 +7033,7 @@ area {
     left: 0;
     background-size: 75% 100%;
     background-repeat: no-repeat;
+    z-index: 99;
   }
   .first-section .first-right::after {
     content: "";
@@ -7041,7 +7042,8 @@ area {
     width: 150px;
     height: 150px;
     background-size: cover;
-    right: 50%;
+    right: 44%;
+    top: -31px;
   }
   .first-section .first-right::before {
     content: "";
@@ -7063,6 +7065,28 @@ area {
   .first-section .man-path img {
     width: 250px;
     height: 550px;
+  }
+}
+@media (min-width: 992px) {
+  .first-section .inner-line {
+    position: absolute;
+    bottom: 50px;
+  }
+  .first-section .inner-line img {
+    width: 1000vh;
+  }
+  .first-section .inner-line::after {
+    content: "";
+    background: linear-gradient(180deg, #D9D9D9 0%, #FF4040 100%);
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 22%;
+    margin: auto;
   }
 }
 .first-section-mobile {

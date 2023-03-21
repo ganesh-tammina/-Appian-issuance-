@@ -7374,6 +7374,7 @@ left: -40px;
         left: 0;
         background-size: 75% 100%;
         background-repeat: no-repeat;
+        z-index: 99;
         &::after{
             content: '';
             background-image: url('../Issuance-image/Home-Triangle.svg');
@@ -7381,7 +7382,8 @@ left: -40px;
             width: 150px;
             height: 150px;
             background-size: cover;
-            right: calc(100% - 50%);
+            right: calc(100% - 56%);
+            top:-31px
     
         }
         &::before{
@@ -7418,7 +7420,27 @@ left: -40px;
             //     }
         }
         
-        
+.inner-line{
+    position: absolute;
+    bottom: 50px;
+    img{
+        width: 1000vh;
+    }
+    &::after{
+        content: '';
+        background: linear-gradient(180deg, #D9D9D9 0%, #FF4040 100%);
+        width: 30px;
+        height: 30px;
+        border-radius: 50px;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        top: calc(100% - 78%);
+        margin: auto;
+        }
+}
+
     }
 }
 
