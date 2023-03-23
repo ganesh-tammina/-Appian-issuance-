@@ -6486,7 +6486,7 @@ Animation CSS
     }
 }
   
-@keyframes rotate-in {
+@keyframes rotate-in {  
     0% {
         -webkit-transform: perspective(120px) rotateX(0deg) rotateY(0deg);
                 transform: perspective(120px) rotateX(0deg) rotateY(0deg);
@@ -6889,15 +6889,15 @@ Buy Now Btn
     padding: 10px 12px;
     position: relative;
     display: inline-block;
-  border-radius: 10rem;
-  color: #fff;
-  text-transform: uppercase;
-  font-size: 1.8rem;
-  letter-spacing: .15rem;
-  font-weight: 600;
-  position: relative;
-  overflow: hidden;
-  z-index: 1;
+    border-radius: 10rem;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 1.8rem;
+    letter-spacing: .15rem;
+    font-weight: 600;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
   &.click-more{
     padding: 1px 15px;
   }
@@ -7198,8 +7198,7 @@ left: -40px;
         display: none;
 
         .first-section-content{
-         
-            height: 40%;
+             height: 40%;
             align-items: center;
             display: flex;
             padding: 15px 20px;
@@ -7266,8 +7265,7 @@ left: -40px;
         height: 200px;
         left: calc(100% - 83%);
         background-repeat: no-repeat;
-    
-        }
+    }
     }
     
         .man-path{
@@ -7422,7 +7420,8 @@ left: -40px;
         
 .inner-line{
     position: absolute;
-    bottom: 50px;
+    bottom: calc(100% - 97%);
+    right: 2rem;
     img{
         width: 1000vh;
         
@@ -7589,6 +7588,9 @@ left: -40px;
                     top: 18rem;
                      right: 229px;
                      animation: movebounce-up 5s infinite;
+                     @media (max-width : 991px){
+                        display: none;
+                   }
                 }
             }
         }

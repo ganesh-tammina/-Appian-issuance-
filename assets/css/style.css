@@ -7070,7 +7070,8 @@ area {
 @media (min-width: 992px) {
   .first-section .inner-line {
     position: absolute;
-    bottom: 50px;
+    bottom: 3%;
+    right: 2rem;
   }
   .first-section .inner-line img {
     width: 1000vh;
@@ -7222,6 +7223,11 @@ area {
   top: 18rem;
   right: 229px;
   animation: movebounce-up 5s infinite;
+}
+@media (max-width: 991px) {
+  .methodology .left-part .robo img {
+    display: none;
+  }
 }
 .methodology .polygon-1 {
   position: absolute;
