@@ -6892,12 +6892,11 @@ Buy Now Btn
     border-radius: 10rem;
     color: #fff;
     text-transform: uppercase;
-    font-size: 1.8rem;
+    font-size: 1rem;
     letter-spacing: .15rem;
     font-weight: 600;
     position: relative;
     overflow: hidden;
-    z-index: 9999;
     cursor: pointer;
   &.click-more{
     padding: 1px 15px;
@@ -7326,7 +7325,7 @@ left: -40px;
                 height: 70%;
             }
             h2{
-                font-size: 55px;
+                font-size: 32px;
                 line-height: 1.2;
                 font-weight: 700;
                 margin: 0;
@@ -7335,7 +7334,7 @@ left: -40px;
                 }
             }
             h3{
-                font-size: 45px;
+                font-size: 32px;
                 line-height: 1.2;
             }
            .laptop-view{
@@ -7356,7 +7355,7 @@ left: -40px;
             bottom: 0;
             margin: auto;
             .first-section_content{
-                font-weight: 700;
+                font-weight: 500;
                 font-size: 16px;
                 line-height: 30px;
                 padding: 20px 0px;
@@ -7559,6 +7558,7 @@ left: -40px;
             border-radius:12px;
             margin: 0px 0.5rem 0rem 0.5rem;
             margin-bottom: 1rem;
+            margin-left: auto;
             h5{
                 background: radial-gradient(54.26% 113.36% at 31.08% 27.26%, rgba(250, 255, 0, 0.97) 0%, rgba(227, 73, 25, 0.97) 0.01%, #D7B507 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
                 -webkit-background-clip: text;
@@ -7631,7 +7631,7 @@ left: -40px;
     background-image: url(../Issuance-image/Vector\ 6.svg);
     background-size: cover;
     width: 100%;
-    height: 100vh;
+    height: 143vh;
     display: grid;
     place-content: center;
     margin: 6rem 0 6rem 0;
@@ -7742,7 +7742,8 @@ background-clip: text;
         width: 49%;
         @media(max-width:767px){
             margin-bottom: 34px;
-          
+            width: 100%;
+            margin-left: 0;
         }
         .omni{
             position: absolute;
@@ -7761,12 +7762,30 @@ background-clip: text;
         .arrow-1{
             position: absolute;
             left: 165px;
+            @media (min-width:320px) and (max-width:500px){
+                left: 223px;
+            }
+            @media (min-width:768px) and (max-width:991px){
+                left: 94px;
+            }
+            @media (min-width:992px) and (max-width:1199px){
+                left: 133px;
+            }
             top: -14px;
             z-index: 1;
         }
         .arrow-2{
             position: absolute;
             right: 165px;
+            @media (min-width:320px) and (max-width:500px){
+                right: 223px;
+            }
+            @media (min-width:768px) and (max-width:991px){
+                right: 94px;
+            }
+            @media (min-width:992px) and (max-width:1199px){
+                right: 133px;
+            }
             top: -14px;
             z-index: 1;
         }
@@ -7776,6 +7795,9 @@ background-clip: text;
         border-radius:12px;
         position: relative;
         width: 49%;
+        @media(max-width:767px){
+            width: 100%;
+        }
   margin-left: auto;
         .rpa{
             position: absolute;
@@ -7796,12 +7818,30 @@ background-clip: text;
             left: 165px;
             top: -14px;
             z-index: 1;
+            @media (min-width:768px) and (max-width:991px){
+                left: 94px;
+            }
+            @media (min-width:992px) and (max-width:1199px){
+                left: 133px;
+            }
+            @media (min-width:320px) and (max-width:500px){
+                left: 223px;
+            }
         }
         .arrow-2{
             position: absolute;
             right: 165px;
             top: -14px;
             z-index: 1;
+            @media (min-width:768px) and (max-width:991px){
+                right: 94px;
+            }
+            @media (min-width:992px) and (max-width:1199px){
+                right: 133px;
+            }
+            @media (min-width:320px) and (max-width:500px){
+                right: 223px;
+            }
         }
     }
 }
@@ -8379,7 +8419,7 @@ font-weight: bold;
         height: 200vh;
     }
     @media(min-width:992px){
-        height: 65vh;
+        height: 75vh;
     }
     .top-view{
         @media(min-width:992px){
@@ -8430,7 +8470,9 @@ font-weight: bold;
     height: 250vh;
     padding: 3rem 0rem;
   }
-
+  @media(min-width:992px) and (max-width:1199px) {
+    height: 140vh;
+  }
    p{
     font-size: 18px;
     font-weight: 400;
@@ -8494,6 +8536,7 @@ display: grid;
 place-content: center;
 .connet-row{
     margin-top: 9rem;
+    font-family: 'Racing Sans One';
     .Connect-btn{
         border: 3px solid #FFFFFF;
         border-radius: 9px;
