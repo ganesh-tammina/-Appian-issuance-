@@ -6,7 +6,7 @@ $bg-color: #252525;
 $bg-color2: #080808;
 
 .switch-box {
-    position: fixed;
+    // position: fixed;
     bottom: 0px;
     z-index: 999;
     top: 23px;
@@ -127,11 +127,11 @@ $bg-color2: #080808;
             left: 0;
             width: 0%;
             height: 100%;
-            background: linear-gradient(#1155B5,#1260E4);
-            transition: all .9s;
+            // background: linear-gradient(#1155B5,#1260E4);
+            // transition: all .9s;
             border-radius: 10rem;
             z-index: -1;
-            animation: gani .9s infinite;
+            // animation: gani .9s infinite;
           }
           &:hover {
             color: #fff;
@@ -1034,6 +1034,25 @@ $bg-color2: #080808;
     }
     .coming-soon-area {
         background-color: transparent;
+    }
+}
+
+
+.container-fluid_width{
+    padding: 0px 60px;
+    .custom-navbar{
+        min-height: 83px !important;
+    }
+    .mean-menu{
+       position: relative;
+       right: -15px;
+    }
+    .custom-navlink{
+        margin: 0px 15px  !important;
+        font-weight: 400 !important;
+        padding-bottom: 0px !important;
+        letter-spacing: .3px;
+        font-size: 16px;
     }
 }
 

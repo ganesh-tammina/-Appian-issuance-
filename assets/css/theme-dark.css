@@ -1,5 +1,4 @@
 .switch-box {
-  position: fixed;
   bottom: 0px;
   z-index: 999;
   top: 23px;
@@ -119,11 +118,8 @@
   left: 0;
   width: 0%;
   height: 100%;
-  background: linear-gradient(#1155B5, #1260E4);
-  transition: all 0.9s;
   border-radius: 10rem;
   z-index: -1;
-  animation: gani 0.9s infinite;
 }
 .theme-dark body .play-more:hover {
   color: #fff;
@@ -735,4 +731,22 @@
 }
 .theme-dark .coming-soon-area {
   background-color: transparent;
+}
+
+.container-fluid_width {
+  padding: 0px 60px;
+}
+.container-fluid_width .custom-navbar {
+  min-height: 83px !important;
+}
+.container-fluid_width .mean-menu {
+  position: relative;
+  right: -15px;
+}
+.container-fluid_width .custom-navlink {
+  margin: 0px 15px !important;
+  font-weight: 400 !important;
+  padding-bottom: 0px !important;
+  letter-spacing: 0.3px;
+  font-size: 16px;
 }/*# sourceMappingURL=theme-dark.css.map */
