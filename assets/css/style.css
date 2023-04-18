@@ -6885,7 +6885,7 @@ User All Area End
 Footer Area 
 =================================*/
 .footer-bg {
-  background-image: url(../img/shape/footer-bg2.webp);
+  background-image: url("../img/shape/footer-bg2.webp");
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -6893,7 +6893,7 @@ Footer Area
 }
 
 .footer-bg2 {
-  background-image: url(../img/shape/footer-bg2.webp);
+  background-image: url("../img/shape/footer-bg2.webp");
   background-position: center center;
   background-repeat: no-repeat;
   z-index: 1;
@@ -8820,7 +8820,7 @@ area {
   background-image: url("../Issuance-image/Vector 6.svg");
   background-size: cover;
   width: 100%;
-  height: 143vh;
+  height: 85vh;
   display: -ms-grid;
   display: grid;
   place-content: center;
@@ -8829,7 +8829,7 @@ area {
 
 .trillion .first-percent h3 {
   color: #fff;
-  font-size: 76px;
+  font-size: 32px;
   font-weight: 200;
 }
 
@@ -8846,7 +8846,7 @@ area {
 .trillion .second-percent h1 {
   color: #FFFFFF;
   font-size: 500;
-  font-size: 76px;
+  font-size: 40px;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -8858,21 +8858,9 @@ area {
   }
 }
 
-.trillion .third-percent p {
-  color: #FFFFFF;
-  font-size: 500;
-  font-size: 76px;
-}
-
-@media (max-width: 767px) {
-  .trillion .third-percent p {
-    font-size: 18px;
-  }
-}
-
 .trillion .forth-percent h1 {
   color: #FFFFFF;
-  font-size: 44px;
+  font-size: 32px;
   font-weight: 600;
   background: linear-gradient(91.01deg, #FAFF00 2.65%, #EBFF00 106.32%);
   -webkit-background-clip: text;
@@ -8889,7 +8877,7 @@ area {
 .trillion .fifth-percent h1 {
   color: #FFFFFF;
   font-weight: 800;
-  font-size: 56px;
+  font-size: 40px;
 }
 
 @media (max-width: 767px) {
@@ -9740,7 +9728,7 @@ area {
 .features-text {
   background-image: url("../Issuance-image/back-ground-vector.svg");
   width: 100%;
-  height: 110vh;
+  height: 120vh;
   background-repeat: no-repeat;
   position: relative;
   background-size: cover;
@@ -9759,13 +9747,12 @@ area {
 
 @media (min-width: 992px) {
   .features-text {
-    height: 85vh;
+    height: 110vh;
   }
 }
 
 @media (min-width: 992px) {
   .features-text .top-view {
-    position: absolute;
     top: -36px;
   }
 }
