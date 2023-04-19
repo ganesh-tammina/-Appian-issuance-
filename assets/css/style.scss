@@ -722,7 +722,7 @@ Navbar Area
         display: grid;
         place-items: center;
         .switch-box{
-            top: 20px;
+            display: none !important;
             }
     }
     
@@ -5920,7 +5920,8 @@ Footer Area
     z-index: 1;
 }
 .footer-bg2 {
-    background-image: url("../img/shape/footer-bg2.webp");
+    background: #282828;
+    // background-image: url("../img/shape/footer-bg2.webp");
     background-position: center center;
     background-repeat: no-repeat;
     z-index: 1;
@@ -5993,7 +5994,7 @@ Footer Area
     margin-bottom: 30px;
     h3 {
         font-size: 24px;
-        color: $color-blue;
+        color: #fff;
         margin-bottom: 15px;
     }
     .footer-list {
@@ -6002,10 +6003,10 @@ Footer Area
         padding: 0;
         li {
             display: block;
-            color: #6c6c6c;
+            color: #fff;
             margin-bottom: 5px;
             a {
-                color: $paragraph-color;
+                color: #fff;
                 &:hover {
                     color: $main-color;
                     letter-spacing: 0.15px;
@@ -6104,11 +6105,11 @@ Footer Area
     }
     .copy-right-text {
         p {
-            color: $color-blue;
+            color:#fff;
             margin-bottom: 0;
             a {
-                color: $main-color;
-                border-bottom: 1px solid $main-color;
+                color: #fff;
+                border-bottom: 1px solid #fff;
                 &:hover {
                     color: $color-black;
                     border-color: $color-black;
@@ -6134,20 +6135,65 @@ Footer Area
                 right: -12px;
                 height: 14px;
                 width: 1px;
-                background-color: $color-blue;
+                background-color: #fff;
             }
             &:last-child::before {
                 display: none;
             }
             a {
-                color: $color-blue;
+                color:#fff;
             }
         }
     }
 }
+.footer-bottom{
+    background: #4a4f54!important;
+    padding: 0!important;
+    padding: 0 !important;
+    height: 65px;
+    align-items: center;
+    display: flex;
+}
+.icon-width{
+    width: 10px;
+    margin: 0 13px 0 10px;
+}
+
 /*==================================
 Footer Area End
 =================================*/
+
+.vc_tta-tabs-list li {
+    list-style: none;
+   }
+   .flags{
+       max-width: 38px;
+       padding: 0px 4px;
+       object-fit: cover;
+       height: 50px;
+   }
+   
+   .engflag{
+   height: 23px !important;
+   position: relative;
+   top: 10px;
+   }
+   
+   #Endland{
+       display: none;
+   }
+   
+   #NotherLand{
+       display: none;
+   }
+   
+   #india{
+       display: none;
+   }
+   
+   #usa{
+       display: block;
+   }
 
 /*=================================
 404 Error Area
@@ -7630,7 +7676,7 @@ left: -40px;
     background-image: url("../Issuance-image/Vector\ 6.svg");
     background-size: cover;
     width: 100%;
-    height: 85vh;
+    height: 110vh;
     display: grid;
     place-content: center;
     margin: 6rem 0 6rem 0;
@@ -7762,7 +7808,7 @@ left: -40px;
             position: absolute;
             left: 165px;
             @media (min-width:320px) and (max-width:500px){
-                left: 223px;
+                left: 125px;
             }
             @media (min-width:768px) and (max-width:991px){
                 left: 94px;
@@ -7777,7 +7823,7 @@ left: -40px;
             position: absolute;
             right: 165px;
             @media (min-width:320px) and (max-width:500px){
-                right: 223px;
+                right: 125px;
             }
             @media (min-width:768px) and (max-width:991px){
                 right: 94px;
@@ -7824,7 +7870,7 @@ left: -40px;
                 left: 133px;
             }
             @media (min-width:320px) and (max-width:500px){
-                left: 223px;
+                left: 125px;
             }
         }
         .arrow-2{
@@ -7839,7 +7885,7 @@ left: -40px;
                 right: 133px;
             }
             @media (min-width:320px) and (max-width:500px){
-                right: 223px;
+                right: 125px;
             }
         }
     }
