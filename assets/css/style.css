@@ -361,11 +361,6 @@ Navbar Area
   background-color: transparent;
 }
 
-.navbar-light img {
-  max-width: 140px;
-  float: left;
-}
-
 .navbar-light .navbar-brand-sticky {
   display: none;
 }
@@ -760,7 +755,7 @@ Navbar Area
   position: fixed;
   -webkit-box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
           box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
-  height: 70px;
+  height: 90px;
   display: -ms-grid;
   display: grid;
   place-items: center;
@@ -6999,7 +6994,9 @@ Footer Area
 }
 
 .footer-widget .footer-list li {
-  display: block;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   color: #fff;
   margin-bottom: 5px;
 }
@@ -8578,6 +8575,7 @@ area {
     top: 0;
     bottom: 0;
     margin: auto;
+    z-index: 99;
   }
 }
 

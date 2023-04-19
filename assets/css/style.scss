@@ -327,11 +327,6 @@ Navbar Area
     padding-left: 0;
     padding-right: 0;
     background-color: transparent;
-        img{
-            max-width: 140px;
-            float: left;
-            // padding: 10px 0;
-        }
     
     .navbar-brand-sticky {
         display: none;
@@ -718,7 +713,7 @@ Navbar Area
         background-color: $color-blue;
         position: fixed;
         box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
-        height: 70px;
+        height: 90px;
         display: grid;
         place-items: center;
         .switch-box{
@@ -6002,7 +5997,7 @@ Footer Area
         margin: 0;
         padding: 0;
         li {
-            display: block;
+            display: flex;
             color: #fff;
             margin-bottom: 5px;
             a {
@@ -7400,6 +7395,7 @@ left: -40px;
             top: 0;
             bottom: 0;
             margin: auto;
+            z-index: 99;
             .first-section_content{
                 font-weight: 500;
                 font-size: 16px;
