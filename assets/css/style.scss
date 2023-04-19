@@ -6111,6 +6111,9 @@ Footer Area
                 }
             }
         }
+        @media (min-width: 320px) and (max-width: 767px){
+            text-align: center;
+        }
     }
 }
 .copy-right-list {

@@ -7127,6 +7127,12 @@ Footer Area
   border-color: #1a1b1e;
 }
 
+@media (min-width: 320px) and (max-width: 767px) {
+  .copy-right-area .copy-right-text {
+    text-align: center;
+  }
+}
+
 .copy-right-list {
   float: right;
 }
