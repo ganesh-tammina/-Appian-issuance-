@@ -400,7 +400,8 @@ Navbar Area
                             color: $color-black !important;
                             position: relative;
                             transition: 0.7s;
-                            font-weight: 600;
+                            // font-weight: 600;
+                            font-family: Roboto,sans-serif!important;
                             padding: 10px;
                             border-bottom: 1px dashed #ebebeb;
                             &.active{
@@ -5916,6 +5917,7 @@ Footer Area
 }
 .footer-bg2 {
     background: #282828;
+    font-family: Roboto, sans-serif !important;
     // background-image: url("../img/shape/footer-bg2.webp");
     background-position: center center;
     background-repeat: no-repeat;
@@ -5988,9 +5990,11 @@ Footer Area
 .footer-widget {
     margin-bottom: 30px;
     h3 {
-        font-size: 24px;
+        font-size: 17px;
         color: #fff;
         margin-bottom: 15px;
+        text-transform: uppercase;
+        font-weight: 700;
     }
     .footer-list {
         list-style: none;
@@ -6002,6 +6006,8 @@ Footer Area
             margin-bottom: 5px;
             a {
                 color: #fff;
+                font-size: 14px;
+                text-decoration: none;
                 &:hover {
                     color: $main-color;
                     letter-spacing: 0.15px;
@@ -6099,17 +6105,20 @@ Footer Area
         background-color: #f0f0f0;
     }
     .copy-right-text {
+        a {
+            color: #fff;
+            // border-bottom: 1px solid #fff;
+            font-family: "Nunito Sans" !important;
+            &:hover {
+                color: $color-black;
+                border-color: $color-black;
+                text-decoration: none !important;
+
+            }
+        }
         p {
             color:#fff;
             margin-bottom: 0;
-            a {
-                color: #fff;
-                border-bottom: 1px solid #fff;
-                &:hover {
-                    color: $color-black;
-                    border-color: $color-black;
-                }
-            }
         }
         @media (min-width: 320px) and (max-width: 991px){
             text-align: center;
@@ -6118,6 +6127,18 @@ Footer Area
 }
 .copy-right-list {
     float: right;
+    a {
+        color:#fff;
+        text-decoration: none !important;
+        font-family: "Nunito Sans";
+
+        &:hover {
+            color: red;
+            border-color: $color-black;
+            // text-decoration: none !important;
+
+        }
+    }
     ul {
         list-style: none;
         margin: 0;
@@ -6137,9 +6158,6 @@ Footer Area
             }
             &:last-child::before {
                 display: none;
-            }
-            a {
-                color:#fff;
             }
         }
     }
@@ -6175,6 +6193,7 @@ Footer Area
     a{
       visibility: hidden;
       opacity: 0;
+      text-decoration: none !important;
     }
     &.email-img{
         background: #ea2e30;
@@ -6510,8 +6529,8 @@ Back To Top Button
 .top-btn {
     background-image: linear-gradient(to right,#ff2500,#ff7100);
     color: $color-white;
-    width: 45px;
-    height: 45px;
+    width: 40px;
+    height: 40px;
     border-radius: 50%;
     box-shadow: 0 0 15px $main-color;
     font-size: 20px;
@@ -6523,6 +6542,11 @@ Back To Top Button
         background-image: linear-gradient(to right,#070100e7,#070300bb);
         box-shadow: 0 0 15px $color-black;
         color: #fff;
+    }
+    img{
+        width: 14px;
+        position: relative;
+        top: -4px;
     }
 }
 /*==============================
