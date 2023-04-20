@@ -426,6 +426,7 @@ Navbar Area
   padding: 0;
   border-radius: 0;
   background-color: #ffffff !important;
+  border-radius: 3px;
 }
 
 .main-nav nav .navbar-nav .nav-item .dropdown-menu li {
@@ -438,13 +439,18 @@ Navbar Area
 
 .main-nav nav .navbar-nav .nav-item .dropdown-menu li a {
   text-transform: capitalize;
-  color: #1a1b1e !important;
+  color: #202020 !important;
   position: relative;
   -webkit-transition: 0.7s;
   transition: 0.7s;
   font-family: Roboto, sans-serif !important;
-  padding: 10px;
+  padding: 15px 20px;
+  font-size: 14px !important;
   border-bottom: 1px dashed #ebebeb;
+}
+
+.main-nav nav .navbar-nav .nav-item .dropdown-menu li a:last-child {
+  border-bottom: none;
 }
 
 .main-nav nav .navbar-nav .nav-item .dropdown-menu li a.active {
@@ -645,7 +651,7 @@ Navbar Area
 }
 
 .nav-bar-two nav .navbar-nav .nav-item .dropdown-menu li {
-  border-bottom: 1px solid #ffffff;
+  border-bottom: 1px solid #f5f4f4;
 }
 
 .nav-bar-two nav .navbar-nav .nav-item .dropdown-menu li:last-child {
@@ -6893,6 +6899,7 @@ Footer Area
   background-position: center center;
   background-repeat: no-repeat;
   z-index: 1;
+  min-height: 300px;
 }
 
 .footer-top {
