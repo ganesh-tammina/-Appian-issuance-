@@ -6109,12 +6109,12 @@ Footer Area
             color: #fff;
             // border-bottom: 1px solid #fff;
             font-family: "Nunito Sans" !important;
-            &:hover {
-                color: $color-black;
-                border-color: $color-black;
-                text-decoration: none !important;
+            // &:hover {
+            //     color: $color-black;
+            //     border-color: $color-black;
+            //     text-decoration: none !important;
 
-            }
+            // }
         }
         p {
             color:#fff;
@@ -6132,12 +6132,12 @@ Footer Area
         text-decoration: none !important;
         font-family: "Nunito Sans";
 
-        &:hover {
-            color: red;
-            border-color: $color-black;
-            // text-decoration: none !important;
+        // &:hover {
+        //     // color: red;
+        //     border-color: $color-black;
+        //     // text-decoration: none !important;
 
-        }
+        // }
     }
     ul {
         list-style: none;

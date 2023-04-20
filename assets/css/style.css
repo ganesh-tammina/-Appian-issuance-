@@ -7122,12 +7122,6 @@ Footer Area
   font-family: "Nunito Sans" !important;
 }
 
-.copy-right-area .copy-right-text a:hover {
-  color: #1a1b1e;
-  border-color: #1a1b1e;
-  text-decoration: none !important;
-}
-
 .copy-right-area .copy-right-text p {
   color: #fff;
   margin-bottom: 0;
@@ -7147,11 +7141,6 @@ Footer Area
   color: #fff;
   text-decoration: none !important;
   font-family: "Nunito Sans";
-}
-
-.copy-right-list a:hover {
-  color: red;
-  border-color: #1a1b1e;
 }
 
 .copy-right-list ul {
