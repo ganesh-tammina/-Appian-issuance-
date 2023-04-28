@@ -437,7 +437,7 @@ Navbar Area
 }
 
 .main-nav nav .navbar-nav .nav-item .dropdown-menu li a {
-  text-transform: capitalize;
+  text-transform: initial !important;
   color: #202020 !important;
   position: relative;
   -webkit-transition: 0.7s;
@@ -459,7 +459,6 @@ Navbar Area
 
 .main-nav nav .navbar-nav .nav-item .dropdown-menu li a:hover, .main-nav nav .navbar-nav .nav-item .dropdown-menu li a :focus, .main-nav nav .navbar-nav .nav-item .dropdown-menu li a .active {
   color: #ff3900 !important;
-  margin-left: 5px;
   border-radius: .25rem;
 }
 
@@ -7018,7 +7017,6 @@ Footer Area
 
 .footer-widget .footer-list li a:hover {
   color: #ff3900;
-  letter-spacing: 0.15px;
 }
 
 .footer-widget p {

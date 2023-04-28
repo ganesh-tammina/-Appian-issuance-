@@ -397,7 +397,7 @@ Navbar Area
                             border-bottom: none;
                         }
                         a {
-                            text-transform: capitalize;
+                            text-transform: initial !important;
                             color: #202020 !important;
                             position: relative;
                             transition: 0.7s;
@@ -415,7 +415,7 @@ Navbar Area
                             }
                             &:hover, :focus, .active{
                                 color: $main-color !important;
-                                margin-left: 5px;
+                                // margin-left: 5px;
                                 border-radius: .25rem;
                             }
                         }
@@ -6016,7 +6016,7 @@ Footer Area
                 text-decoration: none;
                 &:hover {
                     color: $main-color;
-                    letter-spacing: 0.15px;
+                    // letter-spacing: 0.15px;
                 }
             }
         }
